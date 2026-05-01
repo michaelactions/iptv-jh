@@ -12,7 +12,7 @@ PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 # 输出目录
 OUTPUT_DIR="$PROJECT_ROOT"
 
-# IPTV 源地址
+# IPTV 源地址（仅在本地文件缺失时作为兜底）
 IPTV_URL="https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv.m3u"
 
 # EPG 源地址（国内推荐）
@@ -102,14 +102,20 @@ verify_files() {
 
 check_source_status() {
     log "检查 IPTV 源状态..."
-    
-    # 尝试下载 IPTV
-    if download_file "$IPTV_URL" "$M3U_FILE.tmp" 60; then
-        verify_files "$M3U_FILE.tmp" 100
-        mv "$M3U_FILE.tmp" "$M3U_FILE"
+
+    # 优先使用本地刚生成的 IPTV 文件，避免被远端旧版本覆盖
+    if [ -f "$M3U_FILE" ] && verify_files "$M3U_FILE" 100; then
+        log "✅ 使用本地 IPTV 文件：$M3U_FILE"
     else
-        log "⚠️ IPTV 源获取失败，使用本地缓存"
-        rm -f "$M3U_FILE.tmp"
+        log "⚠️ 本地 IPTV 文件缺失或异常，尝试从远端兜底下载"
+        if download_file "$IPTV_URL" "$M3U_FILE.tmp" 60; then
+            verify_files "$M3U_FILE.tmp" 100
+            mv "$M3U_FILE.tmp" "$M3U_FILE"
+        else
+            log "❌ IPTV 源获取失败，且本地文件不可用"
+            rm -f "$M3U_FILE.tmp"
+            return 1
+        fi
     fi
     
     log "检查 EPG 源状态..."
