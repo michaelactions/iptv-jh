@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
 # 说明：本订阅已集成电子节目单 (EPG)，无需额外配置
 # EPG 源：http://epg.51zmt.top:8000/e.xml
-# 更新时间：2026-05-04 06:30:04
+# 更新时间：2026-05-05 06:30:08
 
 #EXTINF:-1 tvg-name="CCTV" tvg-logo="https://live.zbds.top/logo/CCTV4K.png" group-title="央视频道",CCTV 4K
 http://3501776.xyz:35455/gaoma/cctv4k.m3u8
