@@ -64,7 +64,7 @@ https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv-with-epg.m3u
 - **卫视频道**: 65
 - **地方频道**: 111
 - **关键频道多线路覆盖**: 56/78
-- **最后更新**: 2026-05-10 06:31
+- **最后更新**: 2026-05-18 09:46
 
 
 ## 🔧 技术说明
