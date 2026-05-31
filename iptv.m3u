@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-# 生成时间: 2026-05-31 21:05:17
+# 生成时间: 2026-05-31 21:07:15
 # 源仓库: https://github.com/michaelactions/iptv-jh
 # 聚合源（496 IPv4 + 55 IPv6）
 # 数据源: best-fan/iptv-sources + fanmingming/live + iptv-org
