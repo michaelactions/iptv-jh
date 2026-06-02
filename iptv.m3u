@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-# 生成时间: 2026-06-02 16:04:21
+# 生成时间: 2026-06-02 16:05:07
 # 源仓库: https://github.com/michaelactions/iptv-jh
 # 聚合源（19 个来源 | 8958 IPv4 + 55 IPv6）
 # 数据源: bestfan_all + bestfan_cctv + fanmingming_index + fanmingming_ipv6 + imDazui_5000 + imDazui_GGTV + imDazui_上海电信 + imDazui_国内 +10others
@@ -1816,20 +1816,6 @@ http://cclive2.aniu.tv/live/anzb.m3u8
 http://stream.lytv.net.cn/1/sd/live.m3u8
 #EXTINF:-1 tvg-name="龙岩综合" group-title="China",龙岩综合
 http://stream.lytv.net.cn/2/sd/live.m3u8
-
-# 频道分组: Congo - Brazzaville
-#EXTINF:-1 tvg-name="AfricaNews English" group-title="Congo - Brazzaville",AfricaNews English
-https://rakuten-africanews-1-dk.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-name="AfricaNews Français" group-title="Congo - Brazzaville",AfricaNews Français
-https://rakuten-africanews-2-be.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-name="Obosso TV" tvg-logo="https://i.imgur.com/UTo9vCc.jpg" group-title="Congo - Brazzaville",Obosso TV
-https://edge4.vedge.infomaniak.com/livecast/ik:obossotv_6/manifest.m3u8
-
-# 频道分组: Congo - Kinshasa
-#EXTINF:-1 tvg-name="Afrobeats" group-title="Congo - Kinshasa",Afrobeats
-https://stream.ecable.tv/afrobeats/index.m3u8
-#EXTINF:-1 tvg-name="Boss Brothers TV" group-title="Congo - Kinshasa",Boss Brothers TV
-http://51.254.199.122:8080/bossbrothersTV/index.m3u8
 
 # 频道分组: Guinea
 #EXTINF:-1 tvg-name="RTG" tvg-logo="https://i.imgur.com/moTF5EE.jpg" group-title="Guinea",RTG
