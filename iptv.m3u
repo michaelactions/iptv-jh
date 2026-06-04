@@ -1,31 +1,35 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-# 生成时间: 2026-06-04 08:19:33
+# 生成时间: 2026-06-04 08:24:30
 # 源仓库: https://github.com/michaelactions/iptv-jh
-# 聚合源（18 个来源 | 2167 IPv4 + 55 IPv6）
+# 聚合源（18 个来源 | 2162 IPv4 + 55 IPv6）
 # 数据源: bestfan_all + bestfan_cctv + fanmingming_index + fanmingming_ipv6 + imDazui_5000 + imDazui_GGTV + imDazui_国内 + imDazui_国内2025 +1others
-# IPv4 ✅ 2167 | IPv6 ⚠️ 55 | 已剔除 ❌ 6796
+# IPv4 ✅ 2162 | IPv6 ⚠️ 55 | 已剔除 ❌ 6801
 
 # 频道分组: 央视频道
 #EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视频道",CCTV-1
-http://198.204.240.250:82/live/cctv1.m3u8
-#EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视频道",CCTV-1
 http://69.30.245.50/live/cctv1.m3u8
-#EXTINF:-1 tvg-name="CCTV-2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视频道",CCTV-2
-http://61.136.172.236:9901/tsfile/live/0002_1.m3u8
+#EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="央视频道",CCTV-1
+http://198.204.240.250:82/live/cctv1.m3u8
 #EXTINF:-1 tvg-name="CCTV-2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视频道",CCTV-2
 https://epg.pw/stream/f86540c126a751cc707e3805911549bd077fb5a7f0f53a824212d75addea3747.m3u8
+#EXTINF:-1 tvg-name="CCTV-2" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV2.png" group-title="央视频道",CCTV-2
+http://61.136.172.236:9901/tsfile/live/0002_1.m3u8
 #EXTINF:-1 tvg-name="CCTV-3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视频道",CCTV-3
 http://222.223.41.27:8888/hls/3/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-3" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV3.png" group-title="央视频道",CCTV-3
 http://183.129.255.66:8480/hls/3/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视频道",CCTV-4
-http://112.46.105.20:8009/hls/4/index.m3u8
+http://112.46.85.60:8009/hls/4/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-4" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV4.png" group-title="央视频道",CCTV-4
 http://112.123.243.37:50085/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视频道",CCTV-5
-http://120.76.248.139/live/bfgd/4200000064.m3u8
+#EXTINF:-1 tvg-name="CCTV-4K" group-title="央视频道",CCTV-4K
+http://198.204.240.250:82/live/cctv4k.m3u8
+#EXTINF:-1 tvg-name="CCTV-4K" group-title="央视频道",CCTV-4K
+http://198.204.240.250:82/live/cctv8k.m3u8
 #EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视频道",CCTV-5
 http://183.11.239.36:808/hls/93/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5.png" group-title="央视频道",CCTV-5
+http://120.76.248.139/live/bfgd/4200000064.m3u8
 #EXTINF:-1 tvg-name="CCTV-5+" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5+.png" group-title="央视频道",CCTV-5+
 http://120.76.248.139/live/bfgd/4200000246.m3u8
 #EXTINF:-1 tvg-name="CCTV-5+" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5+.png" group-title="央视频道",CCTV-5+
@@ -33,19 +37,15 @@ http://58.57.40.22:9901/tsfile/live/1005_1.m3u8
 #EXTINF:-1 tvg-name="CCTV-6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视频道",CCTV-6
 http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 tvg-name="CCTV-6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="央视频道",CCTV-6
-https://piccpndali.v.myalicdn.com/audio/cctv6_2.m3u8
+http://198.204.240.250:82/live/cctv6.m3u8
 #EXTINF:-1 tvg-name="CCTV-7" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央视频道",CCTV-7
 http://112.46.85.60:8009/hls/504/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-7" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV7.png" group-title="央视频道",CCTV-7
 http://183.11.239.36:808/hls/25/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视频道",CCTV-8
-http://112.46.105.20:8009/hls/8/index.m3u8
+http://183.11.239.36:808/hls/96/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-8" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV8.png" group-title="央视频道",CCTV-8
-http://222.223.41.27:8888/hls/8/index.m3u8
-#EXTINF:-1 tvg-name="CCTV-8K" group-title="央视频道",CCTV-8K
-http://198.204.240.250:82/live/cctv8k.m3u8
-#EXTINF:-1 tvg-name="CCTV-8K" group-title="央视频道",CCTV-8K
-http://198.204.240.250:82/live/cctv4k.m3u8
+http://112.46.105.20:8009/hls/8/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视频道",CCTV-9
 https://xykt-fix.github.io/Y77.m3u8
 #EXTINF:-1 tvg-name="CCTV-9" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV9.png" group-title="央视频道",CCTV-9
@@ -65,27 +65,27 @@ http://124.228.160.176:9901/tsfile/live/0012_2.m3u8?key=txiptv&playlive=1&authid
 #EXTINF:-1 tvg-name="CCTV-13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视频道",CCTV-13
 http://222.223.41.27:8888/hls/13/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-13" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV13.png" group-title="央视频道",CCTV-13
-http://183.129.255.66:8480/hls/14/index.m3u8
+http://112.46.105.20:8009/hls/13/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视频道",CCTV-14
 http://222.223.41.27:8888/hls/14/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-14" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV14.png" group-title="央视频道",CCTV-14
-http://112.123.243.37:50085/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
+http://58.57.40.22:9901/tsfile/live/1014_1.m3u8
 #EXTINF:-1 tvg-name="CCTV-15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视频道",CCTV-15
 https://xykt-fix.github.io/play/a02e/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-15" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV15.png" group-title="央视频道",CCTV-15
-http://222.223.41.27:8888/hls/15/index.m3u8
+http://58.56.162.102:4466/newlive/live/hls/16/live.m3u8
 #EXTINF:-1 tvg-name="CCTV-16" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV16.png" group-title="央视频道",CCTV-16
 http://221.226.51.220:50081/newlive/live/hls/1/live.m3u8
 #EXTINF:-1 tvg-name="CCTV-16" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV16.png" group-title="央视频道",CCTV-16
 http://183.11.239.36:808/hls/169/index.m3u8
 #EXTINF:-1 tvg-name="CCTV-17" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV17.png" group-title="央视频道",CCTV-17
-http://183.129.255.66:8480/hls/18/index.m3u8
+http://39.165.39.49:85/tsfile/live/1088_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-17" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV17.png" group-title="央视频道",CCTV-17
-http://59.39.89.130:60901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://live.fanmingming.cn/tv/CGTN.png" group-title="央视频道",CGTN
+https://piccpndali.v.myalicdn.com/audio/cctv17_2.m3u8
+#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://live.fanmingming.cn/tv/CGTN俄语.png" group-title="央视频道",CGTN
+https://0472.org/hls/cgtne.m3u8
+#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://live.fanmingming.cn/tv/CGTN俄语.png" group-title="央视频道",CGTN
 https://0472.org/hls/cgtn.m3u8
-#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://live.fanmingming.cn/tv/CGTN.png" group-title="央视频道",CGTN
-https://0472.org/hls/cgtna.m3u8
 #EXTINF:-1 tvg-name="CGTN Documentary" group-title="央视频道",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-name="CGTN Français" group-title="央视频道",CGTN Français
@@ -96,8 +96,6 @@ https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 
 # 频道分组: 国内频道
-#EXTINF:-1 tvg-name="Afrobeats" group-title="国内频道",Afrobeats
-https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 tvg-name="安徽 宿州公共" group-title="国内频道",安徽 宿州公共
 http://live.ahsz.tv/video/s10001-ggpd/index.m3u8?zanhd
 #EXTINF:-1 tvg-name="安徽六安公共" group-title="国内频道",安徽六安公共
@@ -105,9 +103,9 @@ http://pili-live-rtmp.luan2.hfmt.net/luan2/ggpd.m3u8
 #EXTINF:-1 tvg-name="安徽六安新闻综合" group-title="国内频道",安徽六安新闻综合
 http://pili-live-rtmp.luan2.hfmt.net/luan2/jjpd.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="国内频道",安徽卫视
-http://36.136.38.87:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="国内频道",安徽卫视
 http://112.123.243.37:50085/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/安徽卫视.png" group-title="国内频道",安徽卫视
+http://36.136.38.87:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="安徽固镇影视" group-title="国内频道",安徽固镇影视
 http://www.guzhenm.com:7004/hls/hd-live.m3u8
 #EXTINF:-1 tvg-name="安徽固镇新闻" group-title="国内频道",安徽固镇新闻
@@ -127,7 +125,7 @@ http://112.123.243.37:50085/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/北京卫视.png" group-title="国内频道",北京卫视
 http://124.228.160.176:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/北京卫视.png" group-title="国内频道",北京卫视
-http://39.165.39.49:85/tsfile/live/1130_1.m3u8?key=txiptv&playlive=1&authid=0
+http://60.10.139.113:8801/hls/20/index.m3u8
 #EXTINF:-1 tvg-name="巴中综合" group-title="国内频道",巴中综合
 http://ocj2.kksmg.com/ocj1/ocj1.m3u8
 #EXTINF:-1 tvg-name="毕节-七星关电视台" group-title="国内频道",毕节-七星关电视台
@@ -141,23 +139,21 @@ https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
 #EXTINF:-1 tvg-name="白山公共" group-title="国内频道",白山公共
 http://stream8.jlntv.cn/baishan2/playlist.m3u8?zjild
 #EXTINF:-1 tvg-name="白山新闻综合" group-title="国内频道",白山新闻综合
-https://stream2.jlntv.cn/baishan1/sd/live.m3u8
-#EXTINF:-1 tvg-name="白山新闻综合" group-title="国内频道",白山新闻综合
 http://stream2.jlntv.cn/baishan1/sd/live.m3u8
+#EXTINF:-1 tvg-name="白山新闻综合" group-title="国内频道",白山新闻综合
+https://stream2.jlntv.cn/baishan1/sd/live.m3u8
 #EXTINF:-1 tvg-name="朝阳新闻综合" group-title="国内频道",朝阳新闻综合
 http://120.76.248.139/live/bfgd/4200000282.m3u8
 #EXTINF:-1 tvg-name="苍南新闻" group-title="国内频道",苍南新闻
 http://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8?zzhed?
 #EXTINF:-1 tvg-name="苍南新闻综合" group-title="国内频道",苍南新闻综合
 http://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8
-#EXTINF:-1 tvg-name="DW English" tvg-logo="https://i.imgur.com/xnv0Pgm.jpg" group-title="国内频道",DW English
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-name="东丰综合" group-title="国内频道",东丰综合
 http://stream5.jlntv.cn/df/sd/live.m3u8?zjild
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="国内频道",东南卫视
-http://60.10.139.113:8801/hls/21/index.m3u8
-#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="国内频道",东南卫视
 http://118.193.115.2:9901/tsfile/live/0137_1.m3u8?key=txiptv
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东南卫视.png" group-title="国内频道",东南卫视
+http://112.123.243.37:50085/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="国内频道",东方卫视
 https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/东方卫视.png" group-title="国内频道",东方卫视
@@ -169,9 +165,9 @@ https://play.kankanlive.com/live/1645680054929933.m3u8?zgand
 #EXTINF:-1 tvg-name="定西公共" group-title="国内频道",定西公共
 https://play.kankanlive.com/live/1645680054929933.m3u8
 #EXTINF:-1 tvg-name="定西综合" group-title="国内频道",定西综合
-https://play.kankanlive.com/live/1645679947087932.m3u8
-#EXTINF:-1 tvg-name="定西综合" group-title="国内频道",定西综合
 https://play.kankanlive.com/live/1645679947087932.m3u8?zgand
+#EXTINF:-1 tvg-name="定西综合" group-title="国内频道",定西综合
+https://play.kankanlive.com/live/1645679947087932.m3u8
 #EXTINF:-1 tvg-name="德惠综合" group-title="国内频道",德惠综合
 http://stream11.jlntv.cn/dehuitv/sd/live.m3u8
 #EXTINF:-1 tvg-name="德惠综合" group-title="国内频道",德惠综合
@@ -186,8 +182,6 @@ http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8?zzhed?
 http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8
 #EXTINF:-1 tvg-name="迭部综合频道" group-title="国内频道",迭部综合频道
 http://pili-live-hls.hfmt.net/gntv/dbtv.m3u8
-#EXTINF:-1 tvg-name="France 24 English" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="国内频道",France 24 English
-https://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/凤凰中文.png" group-title="国内频道",凤凰中文
 http://218.206.193.218:8888/hls/66/index.m3u8
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/凤凰中文.png" group-title="国内频道",凤凰中文
@@ -197,13 +191,11 @@ http://221.7.175.154:8445/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/凤凰资讯.png" group-title="国内频道",凤凰资讯
 http://120.198.95.220:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/凤凰香港.png" group-title="国内频道",凤凰香港
-https://epg.pw/stream/5f16dc7fc8aaaed3205516c63e4a8c24bca9dbba1181684244729cf574505b0e.m3u8
-#EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/凤凰香港.png" group-title="国内频道",凤凰香港
 https://epg.pw/stream/8770e89223a086eb1b8a0c931e42296d772a8069ad3eb72540e0c434e7cb3e93.m3u8
+#EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/凤凰香港.png" group-title="国内频道",凤凰香港
+https://epg.pw/stream/5f16dc7fc8aaaed3205516c63e4a8c24bca9dbba1181684244729cf574505b0e.m3u8
 #EXTINF:-1 tvg-name="福州广播电视台新闻综合频道 (FZTV-1)" group-title="国内频道",福州广播电视台新闻综合频道 (FZTV-1)
 http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
-#EXTINF:-1 tvg-name="福州广播电视台都市生活频道 (FZTV-3)" group-title="国内频道",福州广播电视台都市生活频道 (FZTV-3)
-http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 #EXTINF:-1 tvg-name="福州电视台少儿频道 (FZTV-少儿)" group-title="国内频道",福州电视台少儿频道 (FZTV-少儿)
 http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 #EXTINF:-1 tvg-name="福建云霄综合" group-title="国内频道",福建云霄综合
@@ -229,7 +221,7 @@ http://183.11.239.36:808/hls/2/index.m3u8
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东卫视.png" group-title="国内频道",广东卫视
 http://112.123.243.37:50085/tsfile/live/0135_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广东卫视.png" group-title="国内频道",广东卫视
-http://116.128.243.121:9905/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
+http://36.136.38.87:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="广安公共" group-title="国内频道",广安公共
 http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8
 #EXTINF:-1 tvg-name="广安综合" group-title="国内频道",广安综合
@@ -243,7 +235,7 @@ https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=dce137597806f62ae6fdfc40
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广西卫视.png" group-title="国内频道",广西卫视
 http://58.56.162.102:4466/newlive/live/hls/38/live.m3u8
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/广西卫视.png" group-title="国内频道",广西卫视
-http://36.136.38.87:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
+http://112.123.243.37:50085/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="广西隆安新闻综合" group-title="国内频道",广西隆安新闻综合
 http://hls.nntv.cn/nnlive/LATV_A.m3u8
 #EXTINF:-1 tvg-name="甘南综合" group-title="国内频道",甘南综合
@@ -273,9 +265,9 @@ https://play.kankanlive.com/live/1625041962958919.m3u8
 #EXTINF:-1 tvg-name="甘肃陇西" group-title="国内频道",甘肃陇西
 http://play.kankanlive.com/live/1669881644081970.m3u8
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/贵州卫视.png" group-title="国内频道",贵州卫视
-http://58.56.162.102:4466/newlive/live/hls/41/live.m3u8
+http://112.123.243.37:50085/tsfile/live/0130_2.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/贵州卫视.png" group-title="国内频道",贵州卫视
-http://59.39.89.130:60901/tsfile/live/0125_15.m3u8?key=txiptv&playlive=1&authid=0
+http://58.56.162.102:4466/newlive/live/hls/41/live.m3u8
 #EXTINF:-1 tvg-name="贵州正安综合" group-title="国内频道",贵州正安综合
 http://pili-live-hls.221.i2863.com/i2863-221/live_221_315303.m3u8
 #EXTINF:-1 tvg-name="哈尔滨娱乐" group-title="国内频道",哈尔滨娱乐
@@ -293,9 +285,9 @@ https://stream.hrbtv.net/zxpd/sd/live.m3u8
 #EXTINF:-1 tvg-name="桦甸综合" group-title="国内频道",桦甸综合
 http://stream10.jlntv.cn/huadian/sd/live.m3u8?zjild
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北卫视.png" group-title="国内频道",河北卫视
-http://112.123.243.37:50085/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北卫视.png" group-title="国内频道",河北卫视
 http://60.10.139.113:8801/hls/16/index.m3u8
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/河北卫视.png" group-title="国内频道",河北卫视
+http://112.123.243.37:50085/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="河北荆门公共" group-title="国内频道",河北荆门公共
 http://stream.jmtv.com.cn/ngpd/sd/live.m3u8
 #EXTINF:-1 tvg-name="河北荆门教育" group-title="国内频道",河北荆门教育
@@ -311,13 +303,13 @@ http://36.136.38.87:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="河南鹤岗新闻综合" group-title="国内频道",河南鹤岗新闻综合
 http://live.hznet.tv:1935/live/live2/500K/tzwj_video.m3u8
 #EXTINF:-1 tvg-name="河源公共" group-title="国内频道",河源公共
-http://tmpstream.hyrtv.cn/hygg/playlist.m3u8?_upt=c9befc281606112199?zguangd
+http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8
 #EXTINF:-1 tvg-name="河源公共" group-title="国内频道",河源公共
-http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8?zguangd
-#EXTINF:-1 tvg-name="河源综合" group-title="国内频道",河源综合
-http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
+http://tmpstream.hyrtv.cn/hygg/playlist.m3u8?_upt=c9befc281606112199?zguangd
 #EXTINF:-1 tvg-name="河源综合" group-title="国内频道",河源综合
 http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8?zguangd
+#EXTINF:-1 tvg-name="河源综合" group-title="国内频道",河源综合
+http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
 #EXTINF:-1 tvg-name="河源综艺" group-title="国内频道",河源综艺
 http://tmpstream.hyrtv.cn/xwzh/playlist.m3u8?_upt=407e01941606112151?zguangd
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/海南卫视.png" group-title="国内频道",海南卫视
@@ -325,9 +317,9 @@ http://58.56.162.102:4466/newlive/live/hls/30/live.m3u8
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/海南卫视.png" group-title="国内频道",海南卫视
 http://116.128.243.121:9905/tsfile/live/0114_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="国内频道",湖北卫视
-http://58.56.162.102:4466/newlive/live/hls/31/live.m3u8
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="国内频道",湖北卫视
 http://60.10.139.113:8801/hls/29/index.m3u8
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖北卫视.png" group-title="国内频道",湖北卫视
+http://58.56.162.102:4466/newlive/live/hls/31/live.m3u8
 #EXTINF:-1 tvg-name="湖北崇阳综合" group-title="国内频道",湖北崇阳综合
 http://61.184.176.248:10500/live/live.m3u8
 #EXTINF:-1 tvg-name="湖北江夏新闻综合" group-title="国内频道",湖北江夏新闻综合
@@ -335,7 +327,7 @@ http://59.175.226.142:280/gb28181/xwzh.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="国内频道",湖南卫视
 http://112.123.243.37:50085/tsfile/live/1002_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/湖南卫视.png" group-title="国内频道",湖南卫视
-http://120.198.95.220:9901/tsfile/live/1044_1.m3u8?key=txiptv&playlive=1&down=1
+http://36.136.38.87:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="湖州长兴综合" group-title="国内频道",湖州长兴综合
 http://l.cztvcloud.com/channels/lantian/SXchangxing1/720p.m3u8
 #EXTINF:-1 tvg-name="珲春新闻综合" group-title="国内频道",珲春新闻综合
@@ -345,9 +337,9 @@ http://stream8.jlntv.cn/hctv/sd/live.m3u8
 #EXTINF:-1 tvg-name="花花公子" group-title="国内频道",花花公子
 http://d9af5a60.edmonst.net/iptv/N8RG6LD442U365/6242/index.m3u8
 #EXTINF:-1 tvg-name="菏泽新闻综合" group-title="国内频道",菏泽新闻综合
-http://live.hznet.tv:1935/live/live1/500K/tzwj_video.m3u8?shandd
-#EXTINF:-1 tvg-name="菏泽新闻综合" group-title="国内频道",菏泽新闻综合
 http://live.hznet.tv:1935/live/live1/500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-name="菏泽新闻综合" group-title="国内频道",菏泽新闻综合
+http://live.hznet.tv:1935/live/live1/500K/tzwj_video.m3u8?shandd
 #EXTINF:-1 tvg-name="菏泽经济生活" group-title="国内频道",菏泽经济生活
 http://live.hznet.tv:1935/live/live2/500K/tzwj_video.m3u8?shandd
 #EXTINF:-1 tvg-name="辉南新闻综合" group-title="国内频道",辉南新闻综合
@@ -359,9 +351,9 @@ http://hslive.hsnewsnet.com/lsdream/iY92ady/1000/live.m3u8?zanhd
 #EXTINF:-1 tvg-name="黄山新闻综合" group-title="国内频道",黄山新闻综合
 http://hslive.hsnewsnet.com/lsdream/hve9Wjs/1000/live.m3u8?zanhd
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="国内频道",黑龙江卫视
-http://60.10.139.113:8801/hls/27/index.m3u8
-#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="国内频道",黑龙江卫视
 http://118.193.115.2:9901/tsfile/live/0143_1.m3u8?key=txiptv
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/黑龙江卫视.png" group-title="国内频道",黑龙江卫视
+http://60.10.139.113:8801/hls/27/index.m3u8
 #EXTINF:-1 tvg-name="黑龙江哈尔滨娱乐" group-title="国内频道",黑龙江哈尔滨娱乐
 http://stream.hrbtv.net/ylpd/sd/live.m3u8
 #EXTINF:-1 tvg-name="黑龙江哈尔滨影视" group-title="国内频道",黑龙江哈尔滨影视
@@ -397,7 +389,7 @@ http://stream5.jlntv.cn/dl/sd/live.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/吉林卫视.png" group-title="国内频道",吉林卫视
 http://58.56.162.102:4466/newlive/live/hls/36/live.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/吉林卫视.png" group-title="国内频道",吉林卫视
-http://112.123.243.37:50085/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
+http://60.10.139.113:8801/hls/38/index.m3u8
 #EXTINF:-1 tvg-name="吉林市新闻综合" group-title="国内频道",吉林市新闻综合
 http://stream2.jlntv.cn/jilin1/sd/live.m3u8
 #EXTINF:-1 tvg-name="吉林市新闻综合" group-title="国内频道",吉林市新闻综合
@@ -435,9 +427,9 @@ http://222.179.155.21:1935/ch1.m3u8?zzhongqd
 #EXTINF:-1 tvg-name="江津经济生活" group-title="国内频道",江津经济生活
 http://222.179.155.21:1935/ch0.m3u8
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江苏卫视.png" group-title="国内频道",江苏卫视
-http://58.56.162.102:4466/newlive/live/hls/19/live.m3u8
+http://60.10.139.113:8801/hls/19/index.m3u8
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江苏卫视.png" group-title="国内频道",江苏卫视
-http://39.165.39.49:85/tsfile/live/1129_1.m3u8?key=txiptv&playlive=1&authid=0
+http://58.56.162.102:4466/newlive/live/hls/19/live.m3u8
 #EXTINF:-1 tvg-name="江苏句容党建频道" group-title="国内频道",江苏句容党建频道
 http://jrlive.jrntv.com/live/_definst_/dangjians/playlist.m3u8
 #EXTINF:-1 tvg-name="江苏句容影视" group-title="国内频道",江苏句容影视
@@ -450,8 +442,6 @@ http://jrlive.jrntv.com/live/_definst_/shenghuos/playlist.m3u8
 http://live.xysrmt.cn/xwzh/sd/live.m3u8
 #EXTINF:-1 tvg-name="江苏新沂生活频道" group-title="国内频道",江苏新沂生活频道
 http://live.xysrmt.cn/shpd/sd/live.m3u8
-#EXTINF:-1 tvg-name="江西上饶鄱阳" group-title="国内频道",江西上饶鄱阳
-http://pili-live-hls.poyang.jxxw.com.cn/pyxrmtzx/poyang.m3u8
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西卫视.png" group-title="国内频道",江西卫视
 http://58.56.162.102:4466/newlive/live/hls/35/live.m3u8
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/江西卫视.png" group-title="国内频道",江西卫视
@@ -477,9 +467,9 @@ http://live.jinchuanrmt.com:90/live/zhxw.m3u8?zsicd
 #EXTINF:-1 tvg-name="金川综合" group-title="国内频道",金川综合
 https://play.kankanlive.com/live/1625041962958919.m3u8?zgand
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰卡通.png" group-title="国内频道",金鹰卡通
-http://101.66.198.62:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰卡通.png" group-title="国内频道",金鹰卡通
 http://101.66.194.199:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/金鹰卡通.png" group-title="国内频道",金鹰卡通
+http://101.66.198.62:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="金鹰纪实" group-title="国内频道",金鹰纪实
 http://58.57.40.22:9901/tsfile/live/1070_1.m3u8
 #EXTINF:-1 tvg-name="集安综合" group-title="国内频道",集安综合
@@ -513,9 +503,9 @@ https://play.kankanlive.com/live/1638428318510977.m3u8
 #EXTINF:-1 tvg-name="临潭综合" group-title="国内频道",临潭综合
 http://pili-live-hls.hfmt.net/gntv/lttv.m3u8
 #EXTINF:-1 tvg-name="乐至综合" group-title="国内频道",乐至综合
-http://175.155.106.72:89/live1/live1.m3u8
-#EXTINF:-1 tvg-name="乐至综合" group-title="国内频道",乐至综合
 http://175.155.106.72:89/live1/live1.m3u8?zsicd
+#EXTINF:-1 tvg-name="乐至综合" group-title="国内频道",乐至综合
+http://175.155.106.72:89/live1/live1.m3u8
 #EXTINF:-1 tvg-name="六安公共" group-title="国内频道",六安公共
 http://pili-live-rtmp.luan2.hfmt.net/luan2/ggpd.m3u8?zanhd
 #EXTINF:-1 tvg-name="六安新闻综合" group-title="国内频道",六安新闻综合
@@ -535,9 +525,9 @@ http://file.yizu.tv/nmip-media/channellive/channel106606/playlist.m3u8
 #EXTINF:-1 tvg-name="凉山新闻综合" group-title="国内频道",凉山新闻综合
 http://file.yizu.tv/nmip-media/channellive/channel106606/playlist.m3u8?zsicd
 #EXTINF:-1 tvg-name="凉山语" group-title="国内频道",凉山语
-http://file.yizu.tv/nmip-media/channellive/channel107323/playlist.m3u8
-#EXTINF:-1 tvg-name="凉山语" group-title="国内频道",凉山语
 http://file.yizu.tv/nmip-media/channellive/channel107323/playlist.m3u8?zsicd
+#EXTINF:-1 tvg-name="凉山语" group-title="国内频道",凉山语
+http://file.yizu.tv/nmip-media/channellive/channel107323/playlist.m3u8
 #EXTINF:-1 tvg-name="来宾综合" group-title="国内频道",来宾综合
 http://zb.gxlbamc.com:1935/live/lbzh.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="柳河综合" group-title="国内频道",柳河综合
@@ -565,7 +555,7 @@ https://satellitepull.cnr.cn/live/wxlnjtgb/playlist.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/辽宁卫视.png" group-title="国内频道",辽宁卫视
 http://118.193.115.2:9901/tsfile/live/0121_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/辽宁卫视.png" group-title="国内频道",辽宁卫视
-http://60.10.139.113:8801/hls/28/index.m3u8
+http://153.0.171.163:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="辽宁教育青少" group-title="国内频道",辽宁教育青少
 http://120.76.248.139/live/bfgd/4200000075.m3u8
 #EXTINF:-1 tvg-name="辽宁经典广播" group-title="国内频道",辽宁经典广播
@@ -615,7 +605,7 @@ https://stream2.jlntv.cn/naxw/sd/live.m3u8
 #EXTINF:-1 tvg-name="南国都市频道" group-title="国内频道",南国都市频道
 http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
 #EXTINF:-1 tvg-name="南宁公共" group-title="国内频道",南宁公共
-http://hls.nntv.cn/nnlive/GGPD_24.m3u8
+http://hls.nntv.cn/nnlive/NNTV_PUB_A.m3u8?zguangxd
 #EXTINF:-1 tvg-name="南宁公共" group-title="国内频道",南宁公共
 http://hls.nntv.cn/nnlive/NNTV_PUB_A.m3u8
 #EXTINF:-1 tvg-name="南宁影娱乐" group-title="国内频道",南宁影娱乐
@@ -627,9 +617,9 @@ http://hls.nntv.cn/nnlive/NNTV_NEWS_A.m3u8?zguangxd
 #EXTINF:-1 tvg-name="南宁新闻综合" group-title="国内频道",南宁新闻综合
 http://hls.nntv.cn/nnlive/NNTV_NEWS_A.m3u8
 #EXTINF:-1 tvg-name="南宁都市生活" group-title="国内频道",南宁都市生活
-http://hls.nntv.cn/nnlive/NNTV_METRO_A.m3u8?zguangxd
+http://hls.nntv.cn/nnlive/NNTV_METRO_A.m3u8
 #EXTINF:-1 tvg-name="南宁都市生活" group-title="国内频道",南宁都市生活
-http://hls.nntv.cn/nnlive/WLSH_24.m3u8
+http://hls.nntv.cn/nnlive/NNTV_METRO_A.m3u8?zguangxd
 #EXTINF:-1 tvg-name="南部新闻综合" group-title="国内频道",南部新闻综合
 http://pili-live-rtmp.148.i2863.com/i2863-148/live_148_811389.m3u8
 #EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/宁夏卫视.png" group-title="国内频道",宁夏卫视
@@ -651,9 +641,9 @@ http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8
 #EXTINF:-1 tvg-name="普陀新闻" group-title="国内频道",普陀新闻
 http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8?zzhed?
 #EXTINF:-1 tvg-name="普陀新闻综合" group-title="国内频道",普陀新闻综合
-http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name="普陀新闻综合" group-title="国内频道",普陀新闻综合
 http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
+#EXTINF:-1 tvg-name="普陀新闻综合" group-title="国内频道",普陀新闻综合
+http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name="磐石综合" group-title="国内频道",磐石综合
 http://stream5.jlntv.cn/ps/sd/live.m3u8
 #EXTINF:-1 tvg-name="磐石综合" group-title="国内频道",磐石综合
@@ -666,8 +656,6 @@ http://live.qthnews.org.cn:1935/live/live2/800k/tzwj_video.m3u8
 https://stream2.jlntv.cn/qg/sd/live.m3u8
 #EXTINF:-1 tvg-name="前郭综合频道" group-title="国内频道",前郭综合频道
 http://stream2.jlntv.cn/qg/sd/live.m3u8
-#EXTINF:-1 tvg-name="奇妙电视" group-title="国内频道",奇妙电视
-http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8
 #EXTINF:-1 tvg-name="庆元综合频道" group-title="国内频道",庆元综合频道
 http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8
 #EXTINF:-1 tvg-name="清水新闻综合" group-title="国内频道",清水新闻综合
@@ -677,9 +665,9 @@ http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8?zzhed?
 #EXTINF:-1 tvg-name="衢江新闻综合" group-title="国内频道",衢江新闻综合
 http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8
 #EXTINF:-1 tvg-name="青岛城阳" group-title="国内频道",青岛城阳
-http://pili-live-rtmp.56.i2863.com/i2863-56/live_56_307317.m3u8?shandd
-#EXTINF:-1 tvg-name="青岛城阳" group-title="国内频道",青岛城阳
 http://pili-live-rtmp.56.i2863.com/i2863-56/live_56_307317.m3u8
+#EXTINF:-1 tvg-name="青岛城阳" group-title="国内频道",青岛城阳
+http://pili-live-rtmp.56.i2863.com/i2863-56/live_56_307317.m3u8?shandd
 #EXTINF:-1 tvg-name="青海 西宁新闻综合" group-title="国内频道",青海 西宁新闻综合
 https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
 #EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/青海卫视.png" group-title="国内频道",青海卫视
@@ -690,18 +678,14 @@ http://113.25.252.226:9901/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&authid=
 https://liveout.xntv.tv/a65jur/96iln2.m3u8
 #EXTINF:-1 tvg-name="青田电视" group-title="国内频道",青田电视
 http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name="Red Bull TV" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="国内频道",Red Bull TV
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1 tvg-name="Red Bull TV" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="国内频道",Red Bull TV
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
-#EXTINF:-1 tvg-name="日本购物1" tvg-logo="https://live.fanmingming.cn/tv/中国教育1台.png" group-title="国内频道",日本购物1
-http://stream1.shopch.jp/HLS/out1/prog_index.m3u8
 #EXTINF:-1 tvg-name="日本购物1" tvg-logo="https://live.fanmingming.cn/tv/中国教育1台.png" group-title="国内频道",日本购物1
 http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
-#EXTINF:-1 tvg-name="荣昌综合" group-title="国内频道",荣昌综合
-http://183.64.181.25:40023/rongchang01.m3u8
+#EXTINF:-1 tvg-name="日本购物1" tvg-logo="https://live.fanmingming.cn/tv/中国教育1台.png" group-title="国内频道",日本购物1
+http://stream1.shopch.jp/HLS/out1/prog_index.m3u8
 #EXTINF:-1 tvg-name="荣昌综合" group-title="国内频道",荣昌综合
 http://183.64.181.25:40023/rongchang01.m3u8?zzhongqd
+#EXTINF:-1 tvg-name="荣昌综合" group-title="国内频道",荣昌综合
+http://183.64.181.25:40023/rongchang01.m3u8
 #EXTINF:-1 tvg-name="上虞3新商都" tvg-logo="https://live.fanmingming.cn/tv/中国教育3台.png" group-title="国内频道",上虞3新商都
 http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
 #EXTINF:-1 tvg-name="上虞3新商都" tvg-logo="https://live.fanmingming.cn/tv/中国教育3台.png" group-title="国内频道",上虞3新商都
@@ -721,9 +705,9 @@ https://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
 #EXTINF:-1 tvg-name="上虞综合" group-title="国内频道",上虞综合
 http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed?
 #EXTINF:-1 tvg-name="双辽综合" group-title="国内频道",双辽综合
-http://stream5.jlntv.cn/sl/sd/live.m3u8?zjild
-#EXTINF:-1 tvg-name="双辽综合" group-title="国内频道",双辽综合
 http://stream5.jlntv.cn/sl/sd/live.m3u8
+#EXTINF:-1 tvg-name="双辽综合" group-title="国内频道",双辽综合
+http://stream5.jlntv.cn/sl/sd/live.m3u8?zjild
 #EXTINF:-1 tvg-name="双阳综合" group-title="国内频道",双阳综合
 http://stream11.jlntv.cn/shuangyang/sd/live.m3u8?zjild
 #EXTINF:-1 tvg-name="双阳综合" group-title="国内频道",双阳综合
@@ -731,7 +715,7 @@ http://stream11.jlntv.cn/shuangyang/sd/live.m3u8
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/四川卫视.png" group-title="国内频道",四川卫视
 http://58.56.162.102:4466/newlive/live/hls/33/live.m3u8
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/四川卫视.png" group-title="国内频道",四川卫视
-http://153.0.171.163:85/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
+http://112.123.243.37:50085/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="四川叙州新闻综合" group-title="国内频道",四川叙州新闻综合
 http://pili-live-hls.ybcxjd.com/jdh-live/2108111201035597.m3u8
 #EXTINF:-1 tvg-name="四川松潘新闻综合" group-title="国内频道",四川松潘新闻综合
@@ -753,9 +737,9 @@ https://stream2.jlntv.cn/sptv/sd/live.m3u8
 #EXTINF:-1 tvg-name="宿州公共" group-title="国内频道",宿州公共
 http://live.ahsz.tv/video/s10001-ggpd/index.m3u8
 #EXTINF:-1 tvg-name="宿州新闻综合" group-title="国内频道",宿州新闻综合
-http://live.ahsz.tv/video/s10001-szzh/index.m3u8
-#EXTINF:-1 tvg-name="宿州新闻综合" group-title="国内频道",宿州新闻综合
 http://live.ahsz.tv/video/s10001-szzh/index.m3u8?zanhd
+#EXTINF:-1 tvg-name="宿州新闻综合" group-title="国内频道",宿州新闻综合
+http://live.ahsz.tv/video/s10001-szzh/index.m3u8
 #EXTINF:-1 tvg-name="宿州科教" group-title="国内频道",宿州科教
 http://live.ahsz.tv/video/s10001-kxjy/index.m3u8?zanhd
 #EXTINF:-1 tvg-name="宿州科教" group-title="国内频道",宿州科教
@@ -767,9 +751,9 @@ http://112.123.243.37:50085/tsfile/live/0122_1.m3u8?key=txiptv&playlive=0&authid
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="国内频道",山东卫视
 http://39.165.39.49:85/tsfile/live/1133_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="国内频道",山西卫视
-http://59.39.89.130:60901/tsfile/live/0125_20.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="国内频道",山西卫视
 http://112.123.243.37:50085/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山西卫视.png" group-title="国内频道",山西卫视
+http://101.66.194.199:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="嵊州新闻" group-title="国内频道",嵊州新闻
 http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed?
 #EXTINF:-1 tvg-name="嵊州新闻综合" group-title="国内频道",嵊州新闻综合
@@ -791,9 +775,9 @@ http://124.228.160.176:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/深圳卫视.png" group-title="国内频道",深圳卫视
 http://153.0.171.163:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="绍兴公共" group-title="国内频道",绍兴公共
-http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8
-#EXTINF:-1 tvg-name="绍兴公共" group-title="国内频道",绍兴公共
 http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8?zzhed
+#EXTINF:-1 tvg-name="绍兴公共" group-title="国内频道",绍兴公共
+http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8
 #EXTINF:-1 tvg-name="绍兴文化" group-title="国内频道",绍兴文化
 http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8?zzhed?
 #EXTINF:-1 tvg-name="绍兴文化影院" group-title="国内频道",绍兴文化影院
@@ -801,13 +785,13 @@ http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8?zzhed
 #EXTINF:-1 tvg-name="绍兴新闻" group-title="国内频道",绍兴新闻
 http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8?zzhed?
 #EXTINF:-1 tvg-name="绍兴新闻综合" group-title="国内频道",绍兴新闻综合
-http://live.shaoxing.com.cn/video/s10001-sxhb/index.m3u8
+http://live.shaoxing.com.cn/video/s10001-sxhb/index.m3u8?zzhed
 #EXTINF:-1 tvg-name="绍兴新闻综合" group-title="国内频道",绍兴新闻综合
 http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8?zzhed
 #EXTINF:-1 tvg-name="舒兰新闻综合" group-title="国内频道",舒兰新闻综合
-http://stream8.jlntv.cn/shulan/sd/live.m3u8
-#EXTINF:-1 tvg-name="舒兰新闻综合" group-title="国内频道",舒兰新闻综合
 http://stream8.jlntv.cn/shulan/sd/live.m3u8?zjild
+#EXTINF:-1 tvg-name="舒兰新闻综合" group-title="国内频道",舒兰新闻综合
+http://stream8.jlntv.cn/shulan/sd/live.m3u8
 #EXTINF:-1 tvg-name="遂昌综合频道" group-title="国内频道",遂昌综合频道
 http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8
 #EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/陕西卫视.png" group-title="国内频道",陕西卫视
@@ -817,9 +801,9 @@ http://112.123.243.37:50085/tsfile/live/0109_1.m3u8?key=txiptv&playlive=0&authid
 #EXTINF:-1 tvg-name="天水新闻综合" group-title="国内频道",天水新闻综合
 https://play.kankanlive.com/live/1698724188723989.m3u8
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/天津卫视.png" group-title="国内频道",天津卫视
-http://59.39.89.130:60901/tsfile/live/0125_8.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/天津卫视.png" group-title="国内频道",天津卫视
 http://112.123.243.37:50085/tsfile/live/0128_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/天津卫视.png" group-title="国内频道",天津卫视
+http://153.0.171.163:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="潼南综合" group-title="国内频道",潼南综合
 http://183.230.184.51:65500/tntv1.m3u8?zzhongqd
 #EXTINF:-1 tvg-name="田东综合" group-title="国内频道",田东综合
@@ -847,9 +831,9 @@ http://liveout.btzx.com.cn/62ds9e/6o77s4.m3u8
 #EXTINF:-1 tvg-name="五师双河综合" group-title="国内频道",五师双河综合
 http://liveout.btzx.com.cn/62ds9e/4nxdih.m3u8
 #EXTINF:-1 tvg-name="唯心電視" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/weixin.png" group-title="国内频道",唯心電視
-http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8
-#EXTINF:-1 tvg-name="唯心電視" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/weixin.png" group-title="国内频道",唯心電視
 http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+#EXTINF:-1 tvg-name="唯心電視" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/weixin.png" group-title="国内频道",唯心電視
+http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8
 #EXTINF:-1 tvg-name="文成综合频道" group-title="国内频道",文成综合频道
 http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8
 #EXTINF:-1 tvg-name="无锡移动电视" group-title="国内频道",无锡移动电视
@@ -857,9 +841,9 @@ http://m.m3u8.wifiwx.com/live/wifiwx-494.m3u8
 #EXTINF:-1 tvg-name="旺苍新闻综合" group-title="国内频道",旺苍新闻综合
 http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8
 #EXTINF:-1 tvg-name="武义新闻综合" group-title="国内频道",武义新闻综合
-http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8
-#EXTINF:-1 tvg-name="武义新闻综合" group-title="国内频道",武义新闻综合
 http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-name="武义新闻综合" group-title="国内频道",武义新闻综合
+http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8
 #EXTINF:-1 tvg-name="武乡新闻综合" group-title="国内频道",武乡新闻综合
 http://60.220.198.84:81/0.m3u8
 #EXTINF:-1 tvg-name="武胜综合" group-title="国内频道",武胜综合
@@ -905,9 +889,9 @@ http://stream3.huaihai.tv/xwzh1t/sd/live.m3u8
 #EXTINF:-1 tvg-name="徐州经济生活" group-title="国内频道",徐州经济生活
 http://stream3.huaihai.tv/xz2t/sd/live.m3u8
 #EXTINF:-1 tvg-name="新昌休闲影视" group-title="国内频道",新昌休闲影视
-https://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
-#EXTINF:-1 tvg-name="新昌休闲影视" group-title="国内频道",新昌休闲影视
 http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
+#EXTINF:-1 tvg-name="新昌休闲影视" group-title="国内频道",新昌休闲影视
+https://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 #EXTINF:-1 tvg-name="新昌新聞綜合" group-title="国内频道",新昌新聞綜合
 http://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8
 #EXTINF:-1 tvg-name="新昌新聞綜合" group-title="国内频道",新昌新聞綜合
@@ -927,15 +911,15 @@ http://122.224.58.42:85/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="萧山新闻" group-title="国内频道",萧山新闻
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8?zzhed?
 #EXTINF:-1 tvg-name="萧山新闻综合" group-title="国内频道",萧山新闻综合
-http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
-#EXTINF:-1 tvg-name="萧山新闻综合" group-title="国内频道",萧山新闻综合
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-name="萧山新闻综合" group-title="国内频道",萧山新闻综合
+http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
 #EXTINF:-1 tvg-name="萧山生活频道" group-title="国内频道",萧山生活频道
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name="蕭山生活頻道" group-title="国内频道",蕭山生活頻道
-https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
-#EXTINF:-1 tvg-name="蕭山生活頻道" group-title="国内频道",蕭山生活頻道
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
+#EXTINF:-1 tvg-name="蕭山生活頻道" group-title="国内频道",蕭山生活頻道
+https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 #EXTINF:-1 tvg-name="西和综合" group-title="国内频道",西和综合
 https://play.kankanlive.com/live/1659926941626981.m3u8
 #EXTINF:-1 tvg-name="西峰综合" group-title="国内频道",西峰综合
@@ -951,9 +935,9 @@ http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8
 #EXTINF:-1 tvg-name="香港卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/香港卫视.png" group-title="国内频道",香港卫视
 https://hkstv.tv/api/m3u8-proxy?url=http%3A%2F%2Fwebcast.hkstv.tv%2Flivestream%2Fmutfysrq%2Fplaylist.m3u8
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/云南卫视.png" group-title="国内频道",云南卫视
-http://112.123.243.37:50085/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/云南卫视.png" group-title="国内频道",云南卫视
 http://101.66.198.62:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/云南卫视.png" group-title="国内频道",云南卫视
+http://36.136.38.87:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="云和新闻综合" group-title="国内频道",云和新闻综合
 http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8
 #EXTINF:-1 tvg-name="云霄综合" group-title="国内频道",云霄综合
@@ -974,20 +958,18 @@ http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
 http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name="余杭综合频道" group-title="国内频道",余杭综合频道
 http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8
-#EXTINF:-1 tvg-name="元宝山综合" group-title="国内频道",元宝山综合
-http://l2yx82zv.live2.danghongyun.com/live/hls/8be0890a1b0c4d7aaf80b51ea8646682/5a8988f5ecc64986a19aa9b6b3a052a6-1.m3u8
 #EXTINF:-1 tvg-name="宜兴新闻综合" group-title="国内频道",宜兴新闻综合
 http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8
 #EXTINF:-1 tvg-name="宜兴新闻频道" group-title="国内频道",宜兴新闻频道
 http://yixing-tv-ori-hls.jstv.com/yixing-tv-ori/yixing_xw.m3u8?zjiangsd
 #EXTINF:-1 tvg-name="延边卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/延边卫视.png" group-title="国内频道",延边卫视
-https://srs.iyb983.cn:443/video/CYS/index.m3u8
-#EXTINF:-1 tvg-name="延边卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/延边卫视.png" group-title="国内频道",延边卫视
 https://srs.iyb983.cn/video/CYS/index.m3u8
-#EXTINF:-1 tvg-name="延边新闻综合" group-title="国内频道",延边新闻综合
-http://stream2.jlntv.cn/jlyb/sd/live.m3u8
+#EXTINF:-1 tvg-name="延边卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/延边卫视.png" group-title="国内频道",延边卫视
+https://srs.iyb983.cn:443/video/CYS/index.m3u8
 #EXTINF:-1 tvg-name="延边新闻综合" group-title="国内频道",延边新闻综合
 https://stream2.jlntv.cn/jlyb/sd/live.m3u8
+#EXTINF:-1 tvg-name="延边新闻综合" group-title="国内频道",延边新闻综合
+http://stream2.jlntv.cn/jlyb/sd/live.m3u8
 #EXTINF:-1 tvg-name="永嘉新闻综合" group-title="国内频道",永嘉新闻综合
 http://l.cztvcloud.com/channels/lantian/SXyongjia1/720p.m3u8
 #EXTINF:-1 tvg-name="营山电视台" group-title="国内频道",营山电视台
@@ -995,13 +977,13 @@ http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zs
 #EXTINF:-1 tvg-name="鄞州一套" group-title="国内频道",鄞州一套
 http://pili-publish.yzxw.newaircloud.com/newaircloud-yzxw/yzxw_20190925090843.m3u8?zzhed
 #EXTINF:-1 tvg-name="鄞州二套" group-title="国内频道",鄞州二套
-http://pili-publish.yzxw.newaircloud.com/newaircloud-yzxw/yzxw_20190925090936.m3u8
-#EXTINF:-1 tvg-name="鄞州二套" group-title="国内频道",鄞州二套
 http://pili-publish.yzxw.newaircloud.com/newaircloud-yzxw/yzxw_20190925090936.m3u8?zzhed
-#EXTINF:-1 tvg-name="阳曲综合" group-title="国内频道",阳曲综合
-https://83awgyp5.live.sxmty.com/live/hls/6f6f4b36f9bd42628b718b595ba507ed/724b7e8907a8414d873eb2a2f69bfa18.m3u8?zshanxd
+#EXTINF:-1 tvg-name="鄞州二套" group-title="国内频道",鄞州二套
+http://pili-publish.yzxw.newaircloud.com/newaircloud-yzxw/yzxw_20190925090936.m3u8
 #EXTINF:-1 tvg-name="阳曲综合" group-title="国内频道",阳曲综合
 https://83awgyp5.live.sxmty.com/live/hls/6f6f4b36f9bd42628b718b595ba507ed/724b7e8907a8414d873eb2a2f69bfa18.m3u8
+#EXTINF:-1 tvg-name="阳曲综合" group-title="国内频道",阳曲综合
+https://83awgyp5.live.sxmty.com/live/hls/6f6f4b36f9bd42628b718b595ba507ed/724b7e8907a8414d873eb2a2f69bfa18.m3u8?zshanxd
 #EXTINF:-1 tvg-name="餘姚姚江文化" group-title="国内频道",餘姚姚江文化
 http://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
 #EXTINF:-1 tvg-name="餘姚姚江文化" group-title="国内频道",餘姚姚江文化
@@ -1019,25 +1001,25 @@ https://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
 #EXTINF:-1 tvg-name="之江纪录" tvg-logo="https://live.fanmingming.cn/tv/之江纪录.png" group-title="国内频道",之江纪录
 https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
 #EXTINF:-1 tvg-name="卓尼综合" group-title="国内频道",卓尼综合
-http://pili-live-hls.hfmt.net/gntv/zntv.m3u8?zgand
-#EXTINF:-1 tvg-name="卓尼综合" group-title="国内频道",卓尼综合
 http://pili-live-hls.hfmt.net/gntv/zntv.m3u8
+#EXTINF:-1 tvg-name="卓尼综合" group-title="国内频道",卓尼综合
+http://pili-live-hls.hfmt.net/gntv/zntv.m3u8?zgand
 #EXTINF:-1 tvg-name="张掖公共频道" group-title="国内频道",张掖公共频道
 https://play.kankanlive.com/live/1629710004378956.m3u8
 #EXTINF:-1 tvg-name="张掖新闻综合" group-title="国内频道",张掖新闻综合
 https://play.kankanlive.com/live/1629709727589955.m3u8
 #EXTINF:-1 tvg-name="枣强综合" group-title="国内频道",枣强综合
 http://hbzqdb.chinashadt.com:1937/live/zqzh.stream_360p/playlist.m3u8
-#EXTINF:-1 tvg-name="浙江 Ⅰ 绍兴影视" group-title="国内频道",浙江 Ⅰ 绍兴影视
-http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
-#EXTINF:-1 tvg-name="浙江 Ⅰ 绍兴影视" group-title="国内频道",浙江 Ⅰ 绍兴影视
+#EXTINF:-1 tvg-name="浙江 Ⅰ 绍兴综合" group-title="国内频道",浙江 Ⅰ 绍兴综合
 http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8
+#EXTINF:-1 tvg-name="浙江 Ⅰ 绍兴综合" group-title="国内频道",浙江 Ⅰ 绍兴综合
+http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
 #EXTINF:-1 tvg-name="浙江休闲台" group-title="国内频道",浙江休闲台
 http://ali-m-l.cztv.com/channels/lantian/channel006/720p.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江卫视.png" group-title="国内频道",浙江卫视
-http://60.10.139.113:8801/hls/18/index.m3u8
+http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江卫视.png" group-title="国内频道",浙江卫视
-http://39.165.39.49:85/tsfile/live/1127_1.m3u8?key=txiptv&playlive=1&authid=0
+http://60.10.139.113:8801/hls/18/index.m3u8
 #EXTINF:-1 tvg-name="浙江国际" tvg-logo="https://live.fanmingming.cn/tv/浙江国际.png" group-title="国内频道",浙江国际
 https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江宁波鄞州一套" group-title="国内频道",浙江宁波鄞州一套
@@ -1091,9 +1073,9 @@ http://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-name="重庆万载综合" group-title="国内频道",重庆万载综合
 http://ls.qingting.fm/live/273.m3u8
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/重庆卫视.png" group-title="国内频道",重庆卫视
-http://59.39.89.130:60901/tsfile/live/0125_24.m3u8?key=txiptv&playlive=1&authid=0
+http://60.10.139.113:8801/hls/31/index.m3u8
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/重庆卫视.png" group-title="国内频道",重庆卫视
-http://101.66.194.199:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
+http://112.123.243.37:50085/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="重庆合川综合" group-title="国内频道",重庆合川综合
 https://yypull.cbg.cn/applive/hechuantv1/playlist.m3u8
 #EXTINF:-1 tvg-name="重庆武隆综合" group-title="国内频道",重庆武隆综合
@@ -1104,16 +1086,18 @@ https://yypull.cbg.cn/applive/yctv01/playlist.m3u8
 http://120.76.248.139/live/bfgd/4200000168.m3u8
 #EXTINF:-1 tvg-name="重庆精彩导视" group-title="国内频道",重庆精彩导视
 http://zbxclive.cbg.cn:1935/app_2/ls_105.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="重庆铜梁综合" group-title="国内频道",重庆铜梁综合
+https://tlpc01.cqliving.com/ch1.m3u8
 #EXTINF:-1 tvg-name="镇江二套社会民生" group-title="国内频道",镇江二套社会民生
 http://zjtv-wshls.homecdn.com/live/2aa16.m3u8
 #EXTINF:-1 tvg-name="镇江新闻综合" group-title="国内频道",镇江新闻综合
-http://cm-wshls.homecdn.com/live/2aa50.m3u8
-#EXTINF:-1 tvg-name="镇江新闻综合" group-title="国内频道",镇江新闻综合
 http://zjtv-wshls.homecdn.com/live/2aa50.m3u8
-#EXTINF:-1 tvg-name="长春综合" group-title="国内频道",长春综合
-http://stream2.jlntv.cn/jlcc/sd/live.m3u8
+#EXTINF:-1 tvg-name="镇江新闻综合" group-title="国内频道",镇江新闻综合
+http://cm-wshls.homecdn.com/live/2aa50.m3u8
 #EXTINF:-1 tvg-name="长春综合" group-title="国内频道",长春综合
 https://stream2.jlntv.cn/jlcc/sd/live.m3u8
+#EXTINF:-1 tvg-name="长春综合" group-title="国内频道",长春综合
+http://stream2.jlntv.cn/jlcc/sd/live.m3u8
 #EXTINF:-1 tvg-name="长白山电视台" group-title="国内频道",长白山电视台
 http://stream8.jlntv.cn/cbstv/sd/live.m3u8?zjild
 
@@ -1182,6 +1166,8 @@ https://stream.atvsat.com/atvsatlive/smil:atvsatlive.smil/playlist.m3u8
 https://cdn.igocast.com/channel3_hls/channel3_master.m3u8
 #EXTINF:-1 tvg-name="Action (KCKS-LD4)" tvg-logo="https://od.lk/s/MF8yMjM5NTI2OTZf/TV25_360x360.png" group-title="国际频道",Action (KCKS-LD4)
 https://cdn.igocast.com/channel4_hls/channel4_master.m3u8
+#EXTINF:-1 tvg-name="Afrobeats" group-title="国际频道",Afrobeats
+https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 tvg-name="Aghapy TV" group-title="国际频道",Aghapy TV
 https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Air TV" group-title="国际频道",Air TV
@@ -1399,9 +1385,9 @@ http://185.105.4.236:1935/live/ngrp:livestream_all/live.m3u8
 #EXTINF:-1 tvg-name="Chifeng Comprehensive News Chanel" group-title="国际频道",Chifeng Comprehensive News Chanel
 http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
 #EXTINF:-1 tvg-name="Christian Youth Channel (CYC)" tvg-logo="https://i.imgur.com/PfFJy5E.png" group-title="国际频道",Christian Youth Channel (CYC)
-http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Christian Youth Channel (CYC)" tvg-logo="https://i.imgur.com/PfFJy5E.png" group-title="国际频道",Christian Youth Channel (CYC)
 http://media.smc-host.com:1935/cycnow.com/cyc2/chunklist.m3u8
+#EXTINF:-1 tvg-name="Christian Youth Channel (CYC)" tvg-logo="https://i.imgur.com/PfFJy5E.png" group-title="国际频道",Christian Youth Channel (CYC)
+http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Circle" tvg-logo="https://web.opendrive.com/api/v1/download/file.json/MF8yMjY2MjYwMTlf?inline=1" group-title="国际频道",Circle
 https://circle-roku.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="City TV" group-title="国际频道",City TV
@@ -1434,6 +1420,8 @@ http://tv.ctvcamau.vn/live/tv/tv.m3u8
 http://cloudfront44.lexanetwork.com:1732/hlsrelay003/hls/livestream.sdp.m3u8
 #EXTINF:-1 tvg-name="DW Arabic" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="国际频道",DW Arabic
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
+#EXTINF:-1 tvg-name="DW English" tvg-logo="https://i.imgur.com/xnv0Pgm.jpg" group-title="国际频道",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-name="DW Español" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="国际频道",DW Español
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 #EXTINF:-1 tvg-name="Dao Lane Xang" group-title="国际频道",Dao Lane Xang
@@ -1510,6 +1498,8 @@ http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8
 https://c4635.cdn.xsg.ge/c4635/TVFormula/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="France 24 Arabic" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="国际频道",France 24 Arabic
 https://static.france24.com/live/F24_AR_HI_HLS/live_tv.m3u8
+#EXTINF:-1 tvg-name="France 24 English" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="国际频道",France 24 English
+https://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
 #EXTINF:-1 tvg-name="France 24 Français" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="国际频道",France 24 Français
 https://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8
 #EXTINF:-1 tvg-name="Francophonie" tvg-logo="https://i.imgur.com/lvrvwtm.png" group-title="国际频道",Francophonie
@@ -1575,9 +1565,9 @@ https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-a/playlist.m3u8
 #EXTINF:-1 tvg-name="HTV 2 Houston Television" tvg-logo="https://i.imgur.com/zvj1boM.jpg" group-title="国际频道",HTV 2 Houston Television
 https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-b/playlist.m3u8
 #EXTINF:-1 tvg-name="Haber61 TV" tvg-logo="https://i.imgur.com/RhPIYKu.jpg" group-title="国际频道",Haber61 TV
-https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
-#EXTINF:-1 tvg-name="Haber61 TV" tvg-logo="https://i.imgur.com/RhPIYKu.jpg" group-title="国际频道",Haber61 TV
 https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Haber61 TV" tvg-logo="https://i.imgur.com/RhPIYKu.jpg" group-title="国际频道",Haber61 TV
+https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
 #EXTINF:-1 tvg-name="Harbin Comprehensive News Channel" group-title="国际频道",Harbin Comprehensive News Channel
 https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
 #EXTINF:-1 tvg-name="Harbin Movie Channel" group-title="国际频道",Harbin Movie Channel
@@ -1733,15 +1723,15 @@ https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 #EXTINF:-1 tvg-name="Life TV" tvg-logo="https://i.imgur.com/RBUmENQ.png" group-title="国际频道",Life TV
 https://lifetv.bitflip.ee/live/stream1.m3u8
 #EXTINF:-1 tvg-name="Light Channel" tvg-logo="https://i.imgur.com/qskVMhF.png" group-title="国际频道",Light Channel
-http://streamer1.streamhost.org:1935/salive/lctvde/playlist.m3u8
+http://streamer1.streamhost.org:1935/salive/GMIlcbgM/playlist.m3u8
 #EXTINF:-1 tvg-name="Light Channel" tvg-logo="https://i.imgur.com/qskVMhF.png" group-title="国际频道",Light Channel
 https://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8
 #EXTINF:-1 tvg-name="Local Now ChopperTown" group-title="国际频道",Local Now ChopperTown
 https://linear-11.frequency.stream/dist/localnow/11/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-name="Logos TV" tvg-logo="https://proyectoesperanza.es/wp-content/uploads/2017/02/logos-logo-big.png" group-title="国际频道",Logos TV
-https://5aafcc5de91f1.streamlock.net/logoschannel.com/logostv.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Logos TV" tvg-logo="https://proyectoesperanza.es/wp-content/uploads/2017/02/logos-logo-big.png" group-title="国际频道",Logos TV
 http://streamer1.streamhost.org/salive/logosH/playlist.m3u8
+#EXTINF:-1 tvg-name="Logos TV" tvg-logo="https://proyectoesperanza.es/wp-content/uploads/2017/02/logos-logo-big.png" group-title="国际频道",Logos TV
+https://5aafcc5de91f1.streamlock.net/logoschannel.com/logostv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Logos TV English" tvg-logo="https://logoschannel.com/images/logo.png" group-title="国际频道",Logos TV English
 https://5aafcc5de91f1.streamlock.net/logoschannel.com/logoseng/playlist.m3u8
 #EXTINF:-1 tvg-name="Lone Star" tvg-logo="https://od.lk/s/MF8yMzMxMzM1NzJf/LoneStar_250x250.png" group-title="国际频道",Lone Star
@@ -1827,9 +1817,9 @@ https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 #EXTINF:-1 tvg-name="NDTV India" group-title="国际频道",NDTV India
 https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
 #EXTINF:-1 tvg-name="NDTV Profit" tvg-logo="http://bsmedia.business-standard.com/_media/bs/img/article/2017-06/01/full/1496330873-5363.jpg" group-title="国际频道",NDTV Profit
-https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680/ndtvprofit/master.m3u8
-#EXTINF:-1 tvg-name="NDTV Profit" tvg-logo="http://bsmedia.business-standard.com/_media/bs/img/article/2017-06/01/full/1496330873-5363.jpg" group-title="国际频道",NDTV Profit
 https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680-b/ndtvprofit/master.m3u8
+#EXTINF:-1 tvg-name="NDTV Profit" tvg-logo="http://bsmedia.business-standard.com/_media/bs/img/article/2017-06/01/full/1496330873-5363.jpg" group-title="国际频道",NDTV Profit
+https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680/ndtvprofit/master.m3u8
 #EXTINF:-1 tvg-name="NET TV" group-title="国际频道",NET TV
 https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream1/playlist.m3u8
 #EXTINF:-1 tvg-name="NETALKOLE TV" tvg-logo="https://i.imgur.com/OJbRkQ6.jpg" group-title="国际频道",NETALKOLE TV
@@ -1927,9 +1917,9 @@ https://live.palitranews.ge/hls/palitratv/index.m3u8
 #EXTINF:-1 tvg-name="Palitra News" tvg-logo="https://i.imgur.com/9QVZGow.png" group-title="国际频道",Palitra News
 https://livestream.palitra.ge/hls/palitratv/index.m3u8
 #EXTINF:-1 tvg-name="Pardesi TV" tvg-logo="https://i.imgur.com/CwAdPpZ.jpg" group-title="国际频道",Pardesi TV
-http://stream.pardesitv.online/pardesi/index.m3u8
-#EXTINF:-1 tvg-name="Pardesi TV" tvg-logo="https://i.imgur.com/CwAdPpZ.jpg" group-title="国际频道",Pardesi TV
 http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Pardesi TV" tvg-logo="https://i.imgur.com/CwAdPpZ.jpg" group-title="国际频道",Pardesi TV
+http://stream.pardesitv.online/pardesi/index.m3u8
 #EXTINF:-1 tvg-name="Payam Javan TV" tvg-logo="https://payamjavan.com/wp-content/uploads/2019/05/logo-Payam-Javan.png" group-title="国际频道",Payam Javan TV
 https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/chunklist_w1355976606.m3u8
 #EXTINF:-1 tvg-name="Payam-e-Afghan TV" tvg-logo="https://i.imgur.com/G7Zn0gN.png" group-title="国际频道",Payam-e-Afghan TV
@@ -1957,7 +1947,7 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e82b55ad
 #EXTINF:-1 tvg-name="Pluto TV Action" tvg-logo="https://images.pluto.tv/channels/5f8ed1ff5c39700007e2204a/colorLogoPNG.png" group-title="国际频道",Pluto TV Action
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f8ed1ff5c39700007e2204a/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV Action" tvg-logo="https://images.pluto.tv/channels/5f8ed1ff5c39700007e2204a/colorLogoPNG.png" group-title="国际频道",Pluto TV Action
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/561d7d484dc7c8770484914a/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed1ff5c39700007e2204a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV Action Sports" tvg-logo="http://images.pluto.tv/channels/5db867744f229f0009266784/colorLogoPNG.png" group-title="国际频道",Pluto TV Action Sports
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5db867744f229f0009266784/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV Action Sports" tvg-logo="http://images.pluto.tv/channels/5db867744f229f0009266784/colorLogoPNG.png" group-title="国际频道",Pluto TV Action Sports
@@ -2033,9 +2023,9 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5836fe
 #EXTINF:-1 tvg-name="Pluto TV BET" tvg-logo="http://images.pluto.tv/channels/5ca670f6593a5d78f0e85aed/colorLogoPNG.png" group-title="国际频道",Pluto TV BET
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca670f6593a5d78f0e85aed/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ca670f6593a5d78f0e85aed&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=174&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV BET Classics" tvg-logo="https://images.pluto.tv/channels/5f92b5ba040eaa0007074d0a/colorLogoPNG.png" group-title="国际频道",Pluto TV BET Classics
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f92b5ba040eaa0007074d0a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
-#EXTINF:-1 tvg-name="Pluto TV BET Classics" tvg-logo="https://images.pluto.tv/channels/5f92b5ba040eaa0007074d0a/colorLogoPNG.png" group-title="国际频道",Pluto TV BET Classics
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f92b5ba040eaa0007074d0a/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-name="Pluto TV BET Classics" tvg-logo="https://images.pluto.tv/channels/5f92b5ba040eaa0007074d0a/colorLogoPNG.png" group-title="国际频道",Pluto TV BET Classics
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f92b5ba040eaa0007074d0a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV BET Her" tvg-logo="http://images.pluto.tv/channels/5d51e6949ab8e2b35bdcaa9f/colorLogoPNG.png" group-title="国际频道",Pluto TV BET Her
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d51e6949ab8e2b35bdcaa9f/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d51e6949ab8e2b35bdcaa9f&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=175&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV Babar" tvg-logo="https://images.pluto.tv/channels/5e67e20c93312100076f3ffe/colorLogoPNG.png" group-title="国际频道",Pluto TV Babar
@@ -2143,9 +2133,9 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddc4e8bcbb9010009
 #EXTINF:-1 tvg-name="Pluto TV Cine Terror" tvg-logo="https://images.pluto.tv/channels/5dcddf1ed95e740009fef7ab/colorLogoPNG.png" group-title="国际频道",Pluto TV Cine Terror
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d8d180092e97a5e107638d3/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV Ciné" tvg-logo="https://images.pluto.tv/channels/5f8ed0f17564a300082b676a/colorLogoPNG.png" group-title="国际频道",Pluto TV Ciné
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed0f17564a300082b676a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
-#EXTINF:-1 tvg-name="Pluto TV Ciné" tvg-logo="https://images.pluto.tv/channels/5f8ed0f17564a300082b676a/colorLogoPNG.png" group-title="国际频道",Pluto TV Ciné
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f8ed0f17564a300082b676a/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-name="Pluto TV Ciné" tvg-logo="https://images.pluto.tv/channels/5f8ed0f17564a300082b676a/colorLogoPNG.png" group-title="国际频道",Pluto TV Ciné
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed0f17564a300082b676a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV Ciné Rétro" tvg-logo="https://images.pluto.tv/channels/5f8ed168f72fcd0007e56269/colorLogoPNG.png" group-title="国际频道",Pluto TV Ciné Rétro
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed168f72fcd0007e56269/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV Ciné Rétro" tvg-logo="https://images.pluto.tv/channels/5f8ed168f72fcd0007e56269/colorLogoPNG.png" group-title="国际频道",Pluto TV Ciné Rétro
@@ -2166,10 +2156,10 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e46ae801f347500099
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d134a74ca91eedee1630faa/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV Classic TV Comedy" tvg-logo="http://images.pluto.tv/channels/5f15e32b297f96000768f928/colorLogoPNG.png" group-title="国际频道",Pluto TV Classic TV Comedy
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f15e32b297f96000768f928/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f15e32b297f96000768f928&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=501&terminate=false&userId=
-#EXTINF:-1 tvg-name="Pluto TV Classic TV Drama" tvg-logo="http://images.pluto.tv/channels/5f15e3cccf49290007053c67/colorLogoPNG.png" group-title="国际频道",Pluto TV Classic TV Drama
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f15e3cccf49290007053c67/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f15e3cccf49290007053c67&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=520&terminate=false&userId=
-#EXTINF:-1 tvg-name="Pluto TV Classic TV Drama" tvg-logo="http://images.pluto.tv/channels/5f15e3cccf49290007053c67/colorLogoPNG.png" group-title="国际频道",Pluto TV Classic TV Drama
+#EXTINF:-1 tvg-name="Pluto TV Classic TV Drama" tvg-logo="http://images.pluto.tv/channels/5f779951372da90007fd45e8/colorLogoPNG.png" group-title="国际频道",Pluto TV Classic TV Drama
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f779951372da90007fd45e8/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-name="Pluto TV Classic TV Drama" tvg-logo="http://images.pluto.tv/channels/5f779951372da90007fd45e8/colorLogoPNG.png" group-title="国际频道",Pluto TV Classic TV Drama
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f15e3cccf49290007053c67/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f15e3cccf49290007053c67&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=520&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV Classic Toons TV" tvg-logo="http://images.pluto.tv/channels/562ea53fa9060c5a7d463e74/colorLogoPNG.png" group-title="国际频道",Pluto TV Classic Toons TV
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/562ea53fa9060c5a7d463e74/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=562ea53fa9060c5a7d463e74&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=548&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV Clubbing TV" tvg-logo="https://images.pluto.tv/channels/5f984784ccb4de0007dfad74/colorLogoPNG.png" group-title="国际频道",Pluto TV Clubbing TV
@@ -2329,9 +2319,9 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cb6f6f9a
 #EXTINF:-1 tvg-name="Pluto TV FOX Sports" tvg-logo="http://images.pluto.tv/channels/5a74b8e1e22a61737979c6bf/colorLogoPNG.png" group-title="国际频道",Pluto TV FOX Sports
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5a74b8e1e22a61737979c6bf/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5a74b8e1e22a61737979c6bf&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=705&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV FailArmy" tvg-logo="https://images.pluto.tv/channels/5ebaccf1734aaf0007142c86/colorLogoPNG.png" group-title="国际频道",Pluto TV FailArmy
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecd9169d2d4000864a974/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
-#EXTINF:-1 tvg-name="Pluto TV FailArmy" tvg-logo="https://images.pluto.tv/channels/5ebaccf1734aaf0007142c86/colorLogoPNG.png" group-title="国际频道",Pluto TV FailArmy
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ad8d883e738977e2c31096b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-name="Pluto TV FailArmy" tvg-logo="https://images.pluto.tv/channels/5ebaccf1734aaf0007142c86/colorLogoPNG.png" group-title="国际频道",Pluto TV FailArmy
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecd9169d2d4000864a974/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV Faith TV" tvg-logo="http://images.pluto.tv/channels/5c58a539fae3812612f33ca3/colorLogoPNG.png" group-title="国际频道",Pluto TV Faith TV
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c58a539fae3812612f33ca3/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5c58a539fae3812612f33ca3&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=643&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV Family" tvg-logo="https://images.pluto.tv/channels/5dc3fc6b9133f500099c7d98/colorLogoPNG.png" group-title="国际频道",Pluto TV Family
@@ -2519,9 +2509,9 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed80fa09f120007
 #EXTINF:-1 tvg-name="Pluto TV Les Cordier" tvg-logo="https://images.pluto.tv/channels/5f8ed80fa09f120007c8daa5/colorLogoPNG.png" group-title="国际频道",Pluto TV Les Cordier
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f8ed80fa09f120007c8daa5/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV Les Nouveaux Detectives" tvg-logo="https://images.pluto.tv/channels/5f8edb6df1ebb800072edf10/colorLogoPNG.png" group-title="国际频道",Pluto TV Les Nouveaux Detectives
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f8edb6df1ebb800072edf10/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-name="Pluto TV Les Nouveaux Detectives" tvg-logo="https://images.pluto.tv/channels/5f8edb6df1ebb800072edf10/colorLogoPNG.png" group-title="国际频道",Pluto TV Les Nouveaux Detectives
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8edb6df1ebb800072edf10/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
+#EXTINF:-1 tvg-name="Pluto TV Les Nouveaux Detectives" tvg-logo="https://images.pluto.tv/channels/5f8edb6df1ebb800072edf10/colorLogoPNG.png" group-title="国际频道",Pluto TV Les Nouveaux Detectives
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f8edb6df1ebb800072edf10/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV Les filles d'à côté" tvg-logo="http://images.pluto.tv/channels/60549d97cd7b090007c73314/solidLogoPNG.png" group-title="国际频道",Pluto TV Les filles d'à côté
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60549d97cd7b090007c73314/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8ba500-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=0e7a9749-ec3d-4fea-9861-01e153b22e40
 #EXTINF:-1 tvg-name="Pluto TV Little Baby Bum" tvg-logo="http://images.pluto.tv/channels/5eb301b7395671000780d100/colorLogoPNG.png" group-title="国际频道",Pluto TV Little Baby Bum
@@ -2571,9 +2561,9 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cb0cae7a461406ffe
 #EXTINF:-1 tvg-name="Pluto TV MST3K" tvg-logo="http://images.pluto.tv/channels/545943f1c9f133a519bbac92/colorLogoPNG.png" group-title="国际频道",Pluto TV MST3K
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/545943f1c9f133a519bbac92/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=545943f1c9f133a519bbac92&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=488&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV MTV" tvg-logo="http://images.pluto.tv/channels/5ca672f515a62078d2ec0ad2/colorLogoPNG.png" group-title="国际频道",Pluto TV MTV
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5caf325764025859afdd6c4d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-name="Pluto TV MTV" tvg-logo="http://images.pluto.tv/channels/5ca672f515a62078d2ec0ad2/colorLogoPNG.png" group-title="国际频道",Pluto TV MTV
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca672f515a62078d2ec0ad2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ca672f515a62078d2ec0ad2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=178&terminate=false&userId=
+#EXTINF:-1 tvg-name="Pluto TV MTV" tvg-logo="http://images.pluto.tv/channels/5ca672f515a62078d2ec0ad2/colorLogoPNG.png" group-title="国际频道",Pluto TV MTV
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5caf325764025859afdd6c4d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV MTV (Germany)" tvg-logo="http://images.pluto.tv/channels/5ca672f515a62078d2ec0ad2/colorLogoPNG.png" group-title="国际频道",Pluto TV MTV (Germany)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5caf325764025859afdd6c4d/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5caf325764025859afdd6c4d&deviceLat=51.2993&deviceLon=9.4910&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=2&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV MTV Animaciones" tvg-logo="https://images.pluto.tv/channels/5efb8ce2e426140007c78fd1/colorLogoPNG.png" group-title="国际频道",Pluto TV MTV Animaciones
@@ -2723,7 +2713,7 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5268abcd0ce20a8472
 #EXTINF:-1 tvg-name="Pluto TV Nick" tvg-logo="http://images.pluto.tv/channels/5ca673e0d0bd6c2689c94ce3/colorLogoPNG.png" group-title="国际频道",Pluto TV Nick
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ede448d3d50590007a4419e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV Nick" tvg-logo="http://images.pluto.tv/channels/5ca673e0d0bd6c2689c94ce3/colorLogoPNG.png" group-title="国际频道",Pluto TV Nick
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d8d08395f39465da6fb3ec4/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ede448d3d50590007a4419e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5ede448d3d50590007a4419e&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=fbbb3638-0714-11eb-aeab-0242ac110002&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV Nick (Germany)" tvg-logo="https://images.pluto.tv/channels/5ede448d3d50590007a4419e/colorLogoPNG.png" group-title="国际频道",Pluto TV Nick (Germany)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ede448d3d50590007a4419e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ede448d3d50590007a4419e&deviceLat=51.2993&deviceLon=9.4910&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=261&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV Nick Clásico" tvg-logo="https://images.pluto.tv/channels/5ddd7c348520b40009c347e2/colorLogoPNG.png" group-title="国际频道",Pluto TV Nick Clásico
@@ -2781,7 +2771,7 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/59c2c3ae40e64939da
 #EXTINF:-1 tvg-name="Pluto TV People are Awesome" tvg-logo="https://images.pluto.tv/channels/5ebac65911406400078b8993/colorLogoPNG.png" group-title="国际频道",Pluto TV People are Awesome
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed0720dc198000728f9d3/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV People are Awesome" tvg-logo="https://images.pluto.tv/channels/5ebac65911406400078b8993/colorLogoPNG.png" group-title="国际频道",Pluto TV People are Awesome
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5eb95c119dc712000741fa35/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ebac65911406400078b8993/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV Pistas de Blue" tvg-logo="https://images.pluto.tv/channels/5f1aa82c150b2500077733d7/colorLogoPNG.png" group-title="国际频道",Pluto TV Pistas de Blue
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1aa82c150b2500077733d7/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV Planeta Junior TV" tvg-logo="https://images.pluto.tv/channels/609501978c069d00074e0dd2/colorLogoPNG.png" group-title="国际频道",Pluto TV Planeta Junior TV
@@ -2815,9 +2805,9 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1abdced
 #EXTINF:-1 tvg-name="Pluto TV Realities ESP" tvg-logo="http://images.pluto.tv/channels/5d93b4d71754e6a4298d086e/colorLogoPNG.png" group-title="国际频道",Pluto TV Realities ESP
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d93b4d71754e6a4298d086e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d93b4d71754e6a4298d086e&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=953&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV Reality" tvg-logo="https://images.pluto.tv/channels/5dcde197f6591d0009839e04/colorLogoPNG.png" group-title="国际频道",Pluto TV Reality
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde197f6591d0009839e04/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-#EXTINF:-1 tvg-name="Pluto TV Reality" tvg-logo="https://images.pluto.tv/channels/5dcde197f6591d0009839e04/colorLogoPNG.png" group-title="国际频道",Pluto TV Reality
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8bf0b06d2d855ee15115e3/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8bf0b06d2d855ee15115e3&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=275&terminate=false&userId=
+#EXTINF:-1 tvg-name="Pluto TV Reality" tvg-logo="https://images.pluto.tv/channels/5dcde197f6591d0009839e04/colorLogoPNG.png" group-title="国际频道",Pluto TV Reality
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde197f6591d0009839e04/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV Rescue 911" tvg-logo="http://images.pluto.tv/channels/5f21e831e9fe730007706acb/colorLogoPNG.png" group-title="国际频道",Pluto TV Rescue 911
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f21e831e9fe730007706acb/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f21e831e9fe730007706acb&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=277&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV Retro Drama" tvg-logo="https://images.pluto.tv/channels/5dde47b63585b500099f74ec/colorLogoPNG.png" group-title="国际频道",Pluto TV Retro Drama
@@ -2951,7 +2941,7 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fd1419a3
 #EXTINF:-1 tvg-name="Pluto TV Teen" tvg-logo="https://images.pluto.tv/channels/5dd6de52b9914200091f047a/colorLogoPNG.png" group-title="国际频道",Pluto TV Teen
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f0d668b872e4400073acc68/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV Teen" tvg-logo="https://images.pluto.tv/channels/5dd6de52b9914200091f047a/colorLogoPNG.png" group-title="国际频道",Pluto TV Teen
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f0d668b872e4400073acc68/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5f0d668b872e4400073acc68&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=9c22837c-0715-11eb-9b92-0242ac110002&terminate=false&userId=
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd6de52b9914200091f047a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV Teen Stars" tvg-logo="https://images.pluto.tv/channels/60016a60a8e3520008e0d331/colorLogoPNG.png" group-title="国际频道",Pluto TV Teen Stars
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60016a60a8e3520008e0d331/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV TeenNick" group-title="国际频道",Pluto TV TeenNick
@@ -2989,13 +2979,13 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d486acc34ceb37d3c
 #EXTINF:-1 tvg-name="Pluto TV The Love Boat" tvg-logo="http://images.pluto.tv/channels/5f7794a788d29000079d2f07/colorLogoPNG.png" group-title="国际频道",Pluto TV The Love Boat
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f7794a788d29000079d2f07/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV The New Detectives" tvg-logo="https://images.pluto.tv/channels/5ea71d48af1d0b0007d837f4/colorLogoPNG.png" group-title="国际频道",Pluto TV The New Detectives
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5aea40b35126c2157123aa64/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5aea40b35126c2157123aa64&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=376&terminate=false&userId=
-#EXTINF:-1 tvg-name="Pluto TV The New Detectives" tvg-logo="https://images.pluto.tv/channels/5ea71d48af1d0b0007d837f4/colorLogoPNG.png" group-title="国际频道",Pluto TV The New Detectives
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ea71d48af1d0b0007d837f4/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 tvg-name="Pluto TV The New Detectives" tvg-logo="https://images.pluto.tv/channels/5ea71d48af1d0b0007d837f4/colorLogoPNG.png" group-title="国际频道",Pluto TV The New Detectives
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5aea40b35126c2157123aa64/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5aea40b35126c2157123aa64&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=376&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV The Pet Collective" tvg-logo="https://images.pluto.tv/channels/5ebacbcae43a6d000787b88e/colorLogoPNG.png" group-title="国际频道",Pluto TV The Pet Collective
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecd336d64c9000754cdf1/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV The Pet Collective" tvg-logo="https://images.pluto.tv/channels/5ebacbcae43a6d000787b88e/colorLogoPNG.png" group-title="国际频道",Pluto TV The Pet Collective
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5b4f5a07694c027be6ed1417/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ebacbcae43a6d000787b88e/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV The Price is Right" tvg-logo="http://images.pluto.tv/channels/5f7791b8372da90007fd45e6/colorLogoPNG.png" group-title="国际频道",Pluto TV The Price is Right
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f7791b8372da90007fd45e6/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV The Rifleman" tvg-logo="http://images.pluto.tv/channels/5e825550e758c700077b0aef/colorLogoPNG.png" group-title="国际频道",Pluto TV The Rifleman
@@ -3003,9 +2993,9 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e825550e758c70007
 #EXTINF:-1 tvg-name="Pluto TV The Simple Life" tvg-logo="https://images.pluto.tv/channels/5ea18f35ae8f730007465915/colorLogoPNG.png" group-title="国际频道",Pluto TV The Simple Life
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ea18f35ae8f730007465915/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV The Story of Beatclub" tvg-logo="https://images.pluto.tv/channels/5f982c3420de4100070a545e/colorLogoPNG.png" group-title="国际频道",Pluto TV The Story of Beatclub
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f982c3420de4100070a545e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5f982c3420de4100070a545e&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=09ab0f67-3401-11eb-a786-0242ac110002&terminate=false&userId=
-#EXTINF:-1 tvg-name="Pluto TV The Story of Beatclub" tvg-logo="https://images.pluto.tv/channels/5f982c3420de4100070a545e/colorLogoPNG.png" group-title="国际频道",Pluto TV The Story of Beatclub
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f982c3420de4100070a545e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-name="Pluto TV The Story of Beatclub" tvg-logo="https://images.pluto.tv/channels/5f982c3420de4100070a545e/colorLogoPNG.png" group-title="国际频道",Pluto TV The Story of Beatclub
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f982c3420de4100070a545e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5f982c3420de4100070a545e&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=09ab0f67-3401-11eb-a786-0242ac110002&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV The Walking Dead ESP" tvg-logo="http://images.pluto.tv/channels/5e82bb378601b80007b4bd78/colorLogoPNG.png" group-title="国际频道",Pluto TV The Walking Dead ESP
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e82bb378601b80007b4bd78/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5e82bb378601b80007b4bd78&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=925&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV This Old House" tvg-logo="http://images.pluto.tv/channels/5d51e791b7dba3b2ae990ab2/colorLogoPNG.png" group-title="国际频道",Pluto TV This Old House
@@ -3069,9 +3059,9 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f28009b1
 #EXTINF:-1 tvg-name="Pluto TV Velocidad​" tvg-logo="https://images.pluto.tv/channels/5dd6dc7480e3550009133d4a/colorLogoPNG.png" group-title="国际频道",Pluto TV Velocidad​
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd6dc7480e3550009133d4a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV Vevo Pop" tvg-logo="http://images.pluto.tv/channels/5d93b635b43dd1a399b39eee/colorLogoPNG.png" group-title="国际频道",Pluto TV Vevo Pop
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d93b635b43dd1a399b39eee/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d93b635b43dd1a399b39eee&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=890&terminate=false&userId=
-#EXTINF:-1 tvg-name="Pluto TV Vevo Pop" tvg-logo="http://images.pluto.tv/channels/5d93b635b43dd1a399b39eee/colorLogoPNG.png" group-title="国际频道",Pluto TV Vevo Pop
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d93b635b43dd1a399b39eee/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-name="Pluto TV Vevo Pop" tvg-logo="http://images.pluto.tv/channels/5d93b635b43dd1a399b39eee/colorLogoPNG.png" group-title="国际频道",Pluto TV Vevo Pop
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d93b635b43dd1a399b39eee/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d93b635b43dd1a399b39eee&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=890&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV Viajes" tvg-logo="https://images.pluto.tv/channels/5dcddfbdb7cf0e0009ae09ea/colorLogoPNG.png" group-title="国际频道",Pluto TV Viajes
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcddfbdb7cf0e0009ae09ea/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV Victorious" tvg-logo="https://images.pluto.tv/channels/5e8b5e43f294f8000793c3d7/colorLogoPNG.png" group-title="国际频道",Pluto TV Victorious
@@ -3097,15 +3087,15 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ed6828192e8b30007
 #EXTINF:-1 tvg-name="Pluto TV World Poker Tour" tvg-logo="https://images.pluto.tv/channels/5f8ecfb9db6c180007a6d1b0/colorLogoPNG.png" group-title="国际频道",Pluto TV World Poker Tour
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecfb9db6c180007a6d1b0/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV World Poker Tour" tvg-logo="https://images.pluto.tv/channels/5f8ecfb9db6c180007a6d1b0/colorLogoPNG.png" group-title="国际频道",Pluto TV World Poker Tour
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ad8d796e738977e2c31094a/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ad9b7aae738977e2c312132/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5ad9b7aae738977e2c312132&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=48d01e71-b553-42a5-9205-affb7381b546&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV Yoga" tvg-logo="http://images.pluto.tv/channels/60803e541a829e0008e91641/solidLogoPNG.png" group-title="国际频道",Pluto TV Yoga
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60803e541a829e0008e91641/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35fbb570-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ca55bef6-f2a6-488a-be5d-c7ba24d93cdd
 #EXTINF:-1 tvg-name="Pluto TV Yoga" tvg-logo="http://images.pluto.tv/channels/60803e541a829e0008e91641/solidLogoPNG.png" group-title="国际频道",Pluto TV Yoga
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e8b0d10e186bf0007e2b100/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5e8b0d10e186bf0007e2b100&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=2c143e9d-0cd6-4d02-8b92-df3471ececef&terminate=false&userId=
 #EXTINF:-1 tvg-name="Pluto TV Yu-Gi-Oh" tvg-logo="https://images.pluto.tv/channels/5fceaab478f2af00080ff51f/colorLogoPNG.png" group-title="国际频道",Pluto TV Yu-Gi-Oh
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5fceaab478f2af00080ff51f/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-#EXTINF:-1 tvg-name="Pluto TV Yu-Gi-Oh" tvg-logo="https://images.pluto.tv/channels/5fceaab478f2af00080ff51f/colorLogoPNG.png" group-title="国际频道",Pluto TV Yu-Gi-Oh
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f4ec10ed9636f00089b8c89/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-name="Pluto TV Yu-Gi-Oh" tvg-logo="https://images.pluto.tv/channels/5fceaab478f2af00080ff51f/colorLogoPNG.png" group-title="国际频道",Pluto TV Yu-Gi-Oh
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5fceaab478f2af00080ff51f/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV iCarly" tvg-logo="https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png" group-title="国际频道",Pluto TV iCarly
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecc7aa44d9c00081fca29/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
 #EXTINF:-1 tvg-name="Pluto TV iCarly" tvg-logo="https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png" group-title="国际频道",Pluto TV iCarly
@@ -3232,6 +3222,10 @@ http://58bd5b7a98e04.streamlock.net/medienasa-live/ran1_high/playlist.m3u8
 http://streamer1.streamhost.org:1935/salive/GMIredadvenirm/playlist.m3u8
 #EXTINF:-1 tvg-name="Red Apple 21 (Fairfax County Public Schools)" tvg-logo="https://i.imgur.com/ICcQUCH.png" group-title="国际频道",Red Apple 21 (Fairfax County Public Schools)
 https://cs.ebmcdn.net/eastbay-live-hs-1/fcps/mp4:fcps/playlist.m3u8
+#EXTINF:-1 tvg-name="Red Bull TV" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="国际频道",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-name="Red Bull TV" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="国际频道",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 #EXTINF:-1 tvg-name="Rede Mão Amiga" tvg-logo="https://i.imgur.com/cqD6DNY.png" group-title="国际频道",Rede Mão Amiga
 http://streaming03.zas.media:1935/redemaoamiga/redemaoamiga/live.m3u8
 #EXTINF:-1 tvg-name="Reload" group-title="国际频道",Reload
@@ -3324,10 +3318,10 @@ https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3
 https://skylivesky-i.akamaihd.net/hls/live/569780/skylive/sky1.m3u8
 #EXTINF:-1 tvg-name="Sky Racing 2" tvg-logo="https://media.info/i/lf/300/1514269377/6411.png" group-title="国际频道",Sky Racing 2
 https://skylivesky-i.akamaihd.net/hls/live/569780/skylive/sky2.m3u8
-#EXTINF:-1 tvg-name="Sky Thoroughbred Central" tvg-logo="https://i.mjh.nz/.images/tv.skyrtc.png" group-title="国际频道",Sky Thoroughbred Central
-https://skylivetab-i.akamaihd.net/hls/live/569779/tablive/stcsd.m3u8
-#EXTINF:-1 tvg-name="Sky Thoroughbred Central" tvg-logo="https://i.mjh.nz/.images/tv.skyrtc.png" group-title="国际频道",Sky Thoroughbred Central
+#EXTINF:-1 tvg-name="Sky Thoroughbred Central" tvg-logo="https://www.foxtel.com.au/content/dam/foxtel/shared/channel/SRW/SRH_425x243.png" group-title="国际频道",Sky Thoroughbred Central
 https://skylivesky-i.akamaihd.net/hls/live/569780/skylive/stcsd.m3u8
+#EXTINF:-1 tvg-name="Sky Thoroughbred Central" tvg-logo="https://www.foxtel.com.au/content/dam/foxtel/shared/channel/SRW/SRH_425x243.png" group-title="国际频道",Sky Thoroughbred Central
+https://skylivetab-i.akamaihd.net/hls/live/569779/tablive/stcsd.m3u8
 #EXTINF:-1 tvg-name="Sochi Live" group-title="国际频道",Sochi Live
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Solidaria TV" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2018/02/solidaria-tv.png" group-title="国际频道",Solidaria TV
@@ -3410,6 +3404,8 @@ http://217.173.176.107:1935/live/tvk.stream/playlist.m3u8
 http://flash.softhost.com.br:1935/ufg/tvufgweb/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Uskana" group-title="国际频道",TV Uskana
 https://t2.tvmak.com/tv/USKANAKERCOVE.m3u8
+#EXTINF:-1 tvg-name="TV2000" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/0/0d/Logo_tv2000_2015.svg/1280px-Logo_tv2000_2015.svg.png" group-title="国际频道",TV2000
+http://mi1.wz.tv2000.it/tv2000_alfa.m3u8
 #EXTINF:-1 tvg-name="TV4" tvg-logo="http://orsatek.tv/wp-content/uploads/2017/03/logo_tv4-1.png" group-title="国际频道",TV4
 https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
 #EXTINF:-1 tvg-name="TV7 Benevento" tvg-logo="https://www.neikos.it/wp-content/uploads/2014/04/logo_tvsette.png" group-title="国际频道",TV7 Benevento
@@ -3595,7 +3591,7 @@ http://110.153.180.106:55555/out_3/index.m3u8
 #EXTINF:-1 tvg-name="Xinjiang TV 3" group-title="国际频道",Xinjiang TV 3
 http://110.153.180.106:55555/out_2/index.m3u8
 #EXTINF:-1 tvg-name="Xinjiang TV 3" group-title="国际频道",Xinjiang TV 3
-http://120.70.60.179:9901/tsfile/live/1006_1.m3u8?authid=0&key=txiptv&playlive=1
+http://218.84.35.38:3000/m3u8/live/tctv-2/index.m3u8
 #EXTINF:-1 tvg-name="Xinjiang TV 8" group-title="国际频道",Xinjiang TV 8
 http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
 #EXTINF:-1 tvg-name="Xplore" tvg-logo="https://i.imgur.com/ErFj6rR.png" group-title="国际频道",Xplore
