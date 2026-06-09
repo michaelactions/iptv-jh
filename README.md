@@ -68,7 +68,7 @@ https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv.m3u
 
 从多个来源全网搜索并聚合（best-fan/fanmingming/iptv-org/imDazui 等），通过 **npg（重庆电信）+ mrs（联通）** 多节点 SSH 隧道逐条验证连通性：任意节点可播即保留。IPv6 线路单独保留为备用，不参与 IPv4 节点剔除。
 
-过滤策略：保留 CCTV、卫视、地方台、体育频道（包括咪咕体育类直播）；剔除影视/电影/剧场/动漫/综艺轮播、点播、广播电台等非电视直播内容。
+过滤策略：只保留真正的电视台直播。体育只保留 CCTV 体育和地方体育电视台；剔除咪咕/PP 体育/精品体育/篮球足球专题、影视/电影/剧场/动漫/综艺轮播、点播、广播电台等非电视台内容。
 
 ### 更新机制
 
