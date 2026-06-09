@@ -13,6 +13,18 @@
 ### 国内加速
 
 ```text
+https://proxya.pp.ua/https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv.m3u
+```
+
+或
+
+```text
+https://www.proxya.pp.ua/https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv.m3u
+```
+
+或
+
+```text
 https://ghproxy.net/https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv.m3u
 ```
 
