@@ -66,7 +66,9 @@ https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv.m3u
 
 ### 数据来源
 
-从多个来源全网搜索并聚合（best-fan/fanmingming/iptv-org/imDazui 等），通过 **npg（重庆电信家宽）** 的 SSH 隧道下载并逐条验证连通性，仅保留国内可播的源。
+从多个来源全网搜索并聚合（best-fan/fanmingming/iptv-org/imDazui 等），通过 **npg（重庆电信）+ mrs（联通）** 多节点 SSH 隧道逐条验证连通性：任意节点可播即保留。IPv6 线路单独保留为备用，不参与 IPv4 节点剔除。
+
+过滤策略：保留 CCTV、卫视、地方台、体育频道（包括咪咕体育类直播）；剔除影视/电影/剧场/动漫/综艺轮播、点播、广播电台等非电视直播内容。
 
 ### 更新机制
 
@@ -76,12 +78,18 @@ https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv.m3u
 
 ### EPG 节目单
 
-M3U 文件头部已内置 `x-tvg-url=https://live.fanmingming.cn/e.xml`，支持 EPG 的播放器（TiviMate/APTV 等）会自动加载节目信息。
+M3U 文件头部已内置多节目单源：
+
+```text
+https://live.fanmingming.cn/e.xml,https://epg.112114.xyz/pp.xml
+```
+
+支持 EPG 的播放器（TiviMate/APTV/Kodi 等）会自动加载节目信息。第二个节目单源用于补充地方台覆盖。
 
 ## ⚠️ 注意事项
 
-1. **部分频道可能需要 IPv6 网络**才能播放（单独保留，不做删除）
-2. 重庆电信家宽实测通过率约 20% — 运营商不同效果会有差异
+1. **IPv6 线路已保留并作为备用线路输出**，家宽有 IPv6 时播放器可自动尝试
+2. IPv4 线路通过电信/联通节点测试，运营商不同效果会有差异
 3. 建议每周刷新一次订阅
 4. 旧版 `iptv-with-epg.m3u` 已废弃删除，请迁移到 `iptv.m3u`
 
