@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml,https://epg.112114.xyz/pp.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-# 生成时间: 2026-06-09 09:44:30
+# 生成时间: 2026-06-09 09:53:52
 # 源仓库: https://github.com/michaelactions/iptv-jh
-# 聚合源（18 个来源 | 8472 IPv4 + 51 IPv6）
+# 聚合源（18 个来源 | 8442 IPv4 + 50 IPv6）
 # 数据源: bestfan_all + bestfan_cctv + fanmingming_index + fanmingming_ipv6 + imDazui_5000 + imDazui_GGTV + imDazui_上海电信 + imDazui_国内 +9others
-# IPv4 ✅ 8472 | IPv6 ⚠️ 51 | 已剔除 ❌ 0
+# IPv4 ✅ 8442 | IPv6 ⚠️ 50 | 已剔除 ❌ 0
 
 # 频道分组: 国内频道
 #EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV1.png" group-title="国内频道",CCTV-1
@@ -44,8 +44,6 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://112.123.243.37:50085/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV-5+" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5+.png" group-title="国内频道",CCTV-5+
 http://39.165.39.49:85/tsfile/live/1089_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="CCTV-5+" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV5+.png" group-title="国内频道",CCTV-5+
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226894/1.m3u8?
 #EXTINF:-1 tvg-name="CCTV-6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="国内频道",CCTV-6
 http://125.43.244.34:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV-6" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/CCTV6.png" group-title="国内频道",CCTV-6
@@ -2482,16 +2480,10 @@ http://live.appwuhan.com/8tzb/sd/live.m3u8
 http://222.143.133.157:90/hls/pd4.m3u8
 #EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="http://images.center.bcs.ottcn.com:8080/images/ysten/images/ysten/TV/HD-8000k-1080P-miguaoyun2/JCJJYXTBY0719.png" group-title="地方频道",睛彩竞技
 http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225972/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-name="睛彩篮球" tvg-logo="http://images.center.bcs.ottcn.com:8080/images/ysten/images/ysten/TV/HD-8000k-1080P-miguaoyun1/JCLQYXTBY0719.png" group-title="地方频道",睛彩篮球
-http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225961/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-name="睛彩青少" tvg-logo="http://images.center.bcs.ottcn.com:8080/images/ysten/images/ysten/TV/HD-8000k-1080P-quanminrl/JCQSYXTBY0719.png" group-title="地方频道",睛彩青少
 http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226055/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-name="积石山电视台" group-title="地方频道",积石山电视台
 http://117.156.28.119/270000001111/1110000152/index.m3u8
-#EXTINF:-1 tvg-name="精品体育" tvg-logo="http://images.center.bcs.ottcn.com:8080/images/ysten/images/ysten/TV/jtiyu/XBYXTB0705V1.png" group-title="地方频道",精品体育
-http://117.169.124.37:6610/ysten-businessmobile/live/jtiyu/yst.m3u8
-#EXTINF:-1 tvg-name="精品体育" tvg-logo="http://images.center.bcs.ottcn.com:8080/images/ysten/images/ysten/TV/jtiyu/XBYXTB0705V1.png" group-title="地方频道",精品体育
-http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225724/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-name="精品大剧" tvg-logo="http://images.center.bcs.ottcn.com:8080/images/ysten/images/ysten/TV/jdaju/XBYXTB0705V1.png" group-title="地方频道",精品大剧
 http://117.169.124.37:6610/ysten-businessmobile/live/jdaju/yst.m3u8
 #EXTINF:-1 tvg-name="精品大剧" tvg-logo="http://images.center.bcs.ottcn.com:8080/images/ysten/images/ysten/TV/jdaju/XBYXTB0705V1.png" group-title="地方频道",精品大剧
@@ -2858,8 +2850,6 @@ http://l.cztvcloud.com/channels/lantian/channel09/360p.m3u8
 http://pili-live-hls.hfmt.net/gntv/lqtv.m3u8
 #EXTINF:-1 tvg-name="礼县综合频道" group-title="地方频道",礼县综合频道
 https://play.kankanlive.com/live/1652690766596995.m3u8
-#EXTINF:-1 tvg-name="篮球资讯" group-title="地方频道",篮球资讯
-http://223.110.245.139/PLTV/4/224/3221227023/index.m3u8
 #EXTINF:-1 tvg-name="绿春综合" group-title="地方频道",绿春综合
 http://live.hhtv.cc:9098/lctv/lctv.m3u8
 #EXTINF:-1 tvg-name="绿春综合" group-title="地方频道",绿春综合
@@ -2938,14 +2928,8 @@ https://live-pull.newslqy.com/live/fmzb1682404988829.m3u8
 http://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8
 #EXTINF:-1 tvg-name="龙游生活娱乐" group-title="地方频道",龙游生活娱乐
 http://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8
-#EXTINF:-1 tvg-name="MIGU喜剧联盟" group-title="地方频道",MIGU喜剧联盟
-http://117.148.179.154/PLTV/88888888/224/3221231621/index.m3u8
-#EXTINF:-1 tvg-name="MIGU喜剧联盟" group-title="地方频道",MIGU喜剧联盟
-http://117.148.179.163/PLTV/88888888/224/3221231687/index.m3u8
 #EXTINF:-1 tvg-name="命中注定我爱你+恶作剧之吻" group-title="地方频道",命中注定我爱你+恶作剧之吻
 http://103.140.229.13/BOBO/bibi.php?id=15083950
-#EXTINF:-1 tvg-name="咪咕视频" group-title="地方频道",咪咕视频
-http://39.134.66.66/PLTV/88888888/224/3221225613/index.m3u8
 #EXTINF:-1 tvg-name="埋堆堆01" group-title="地方频道",埋堆堆01
 http://121.12.115.162/txdirect.hls.huya.com/src/1199561226091-1199561226091-5434639045542019072-2399122575638-10057-A-0-1.m3u8
 #EXTINF:-1 tvg-name="埋堆堆02" group-title="地方频道",埋堆堆02
@@ -3130,10 +3114,6 @@ http://livecdn.dmqhyadmin.com/hls/xjmenyuan.m3u8
 http://store.ovp.wsrtv.com.cn:9091/mgtv/hls/playlist.m3u8
 #EXTINF:-1 tvg-name="马边电视台" group-title="地方频道",马边电视台
 http://file.mb.leshantv.net:9001/vms/videos/nmip-media/channellive/channel5/playlist.m3u8
-#EXTINF:-1 tvg-name="魅力足球" group-title="地方频道",魅力足球
-http://140.207.241.2:8080/live/program/live/mlyyhd/4000000/mnf.m3u8
-#EXTINF:-1 tvg-name="魅力足球" group-title="地方频道",魅力足球
-http://58.34.204.67:9901/tsfile/live/1004_1.m3u8
 #EXTINF:-1 tvg-name="麻栗坡电视台" group-title="地方频道",麻栗坡电视台
 http://store.ovp.wsrtv.com.cn:9091/mlptv/hls/playlist.m3u8
 #EXTINF:-1 tvg-name="麻栗坡电视台" group-title="地方频道",麻栗坡电视台
@@ -3276,8 +3256,6 @@ http://150.138.8.143/00/SNM/CHANNEL00001071/index.m3u8
 http://livebroadcast.ccwb.cn/live/w1620805130988936.m3u8
 #EXTINF:-1 tvg-name="纽约音乐选择台Music Choice Play" group-title="地方频道",纽约音乐选择台Music Choice Play
 http://edge.music-choice-play-chaina1.top.comcast.net/PlayMetadataInserter/play/chunklist.m3u8
-#EXTINF:-1 tvg-name="PP体育" group-title="地方频道",PP体育
-http://117.148.179.172/PLTV/88888888/224/3221231778/index.m3u8
 #EXTINF:-1 tvg-name="屏边综合" group-title="地方频道",屏边综合
 http://live.hhtv.cc:9098/pbtv/pbtv.m3u8
 #EXTINF:-1 tvg-name="屏边综合" group-title="地方频道",屏边综合
@@ -3404,8 +3382,6 @@ http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8
 http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227343/index.m3u8
 #EXTINF:-1 tvg-name="晴彩竞技" group-title="地方频道",晴彩竞技
 http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227047/index.m3u8
-#EXTINF:-1 tvg-name="晴彩篮球" group-title="地方频道",晴彩篮球
-http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227158/index.m3u8
 #EXTINF:-1 tvg-name="晴彩青少" group-title="地方频道",晴彩青少
 http://ott.fj.chinamobile.com/PLTV/88888888/224/3221227314/index.m3u8
 #EXTINF:-1 tvg-name="曲线救国贾队长晴天" group-title="地方频道",曲线救国贾队长晴天
@@ -4000,8 +3976,6 @@ https://gdcucc.v1.mk/gdcucc/cwjd.m3u8
 https://gdcucc.v1.mk/gdcucc/wxty.m3u8
 #EXTINF:-1 tvg-name="体育" group-title="地方频道",体育
 http://39.134.39.31/PLTV/88888888/224/3221226351/index.m3u8
-#EXTINF:-1 tvg-name="体育赛事" group-title="地方频道",体育赛事
-http://39.134.39.31/PLTV/88888888/224/3221226227/index.m3u8
 #EXTINF:-1 tvg-name="台視新聞" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/%E5%8F%B0%E8%A7%86%E6%96%B0%E9%97%BB.png" group-title="地方频道",台視新聞
 http://seb.sason.top/sc/tsxw_fhd.m3u8
 #EXTINF:-1 tvg-name="同德综合" group-title="地方频道",同德综合
