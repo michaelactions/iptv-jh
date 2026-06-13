@@ -6,39 +6,52 @@
 
 | 文件 | 说明 |
 |------|------|
-| `iptv.m3u` | ✅ **直播源列表（唯一文件）** 内置 EPG 节目单头信息，即订阅即用 |
+| `iptv-ct.m3u` | ✅ **电信线路版** — 通过重庆电信家宽节点 (npg) 验证 |
+| `iptv-cu.m3u` | ✅ **联通线路版** — 通过联通节点 (mrs) 验证 |
+
+> 两版本均内置 EPG 节目单头信息，即订阅即用。
 
 ## 🚀 一键订阅
 
-### 国内加速
+### 电信版 (iptv-ct.m3u)
 
-```text
-https://proxya.pp.ua/https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv.m3u
+国内加速:
+```
+https://proxya.pp.ua/https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv-ct.m3u
 ```
 
-或
-
-```text
-https://www.proxya.pp.ua/https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv.m3u
+直接链接（国外）:
+```
+https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv-ct.m3u
 ```
 
-或
+### 联通版 (iptv-cu.m3u)
 
-```text
-https://ghproxy.net/https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv.m3u
+国内加速:
+```
+https://proxya.pp.ua/https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv-cu.m3u
 ```
 
-或
-
-```text
-https://fastly.jsdelivr.net/gh/michaelactions/iptv-jh@main/iptv.m3u
+直接链接（国外）:
+```
+https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv-cu.m3u
 ```
 
-### 直接链接（国外）
+## 📊 当前统计
 
-```text
-https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv.m3u
-```
+<!--STATS_TABLE-->
+| 项目 | 电信 (iptv-ct.m3u) | 联通 (iptv-cu.m3u) |
+|------|-------------------|-------------------|
+| 总频道 | 2165 | 2165 |
+| 总线路 | 2629 | 2629 |
+| 央视频道 | 33 | 33 |
+| 卫视频道 | 88 | 88 |
+| 地方频道 | 2045 | 2045 |
+| 多线路频道 | 413 | 413 |
+| IPv4 源 | 8339 | 8339 |
+| IPv6 源 | 50 | 50 |
+<!-- 更新于 2026-06-14 07:26 -->
+<!--/STATS_TABLE-->
 
 ## 📺 使用方法
 
@@ -51,17 +64,6 @@ https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv.m3u
 | 电脑 | PotPlayer, VLC |
 | 电视盒子 | DIYP 影音 |
 
-## 📊 当前统计
-
-| 项目 | 数值 |
-|------|------|
-| 总频道 | 518 |
-| 总线路 | 672 |
-| 央视频道 | 21 |
-| 卫视频道 | 37 |
-| 地方/其他 | 460 |
-| 多线路频道 | 93 |
-
 ## 🔧 技术说明
 
 ### 数据来源
@@ -70,10 +72,17 @@ https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv.m3u
 
 过滤策略：只保留真正的电视台直播。体育只保留 CCTV 体育和地方体育电视台；剔除咪咕/PP 体育/精品体育/篮球足球专题、影视/电影/剧场/动漫/综艺轮播、点播、广播电台等非电视台内容。
 
+### 双版本机制
+
+- **iptv-ct.m3u（电信版）**：通过 npg 节点（重庆电信家宽）可播的源
+- **iptv-cu.m3u（联通版）**：通过 mrs 节点（联通）可播的源
+- 双网都通的源两个版本都包含
+- IPv6 源（无法测试）两个版本均包含
+
 ### 更新机制
 
 - **更新频率**：每天 06:30（CST）
-- **流程**：建 SSH 隧道 → 下载所有源 → 解析去重 → 隧道内验证连通性 → 推送 GitHub
+- **流程**：建 SSH 隧道 → 下载所有源 → 解析去重 → 隧道内验证连通性 → 更新 README → 推送 GitHub
 - **失败降级**：隧道不通时自动跳过验证，直接聚合已有源
 
 ### EPG 节目单
@@ -91,7 +100,7 @@ https://live.fanmingming.cn/e.xml,https://epg.112114.xyz/pp.xml
 1. **IPv6 线路已保留并作为备用线路输出**，家宽有 IPv6 时播放器可自动尝试
 2. IPv4 线路通过电信/联通节点测试，运营商不同效果会有差异
 3. 建议每周刷新一次订阅
-4. 旧版 `iptv-with-epg.m3u` 已废弃删除，请迁移到 `iptv.m3u`
+4. 旧版 `iptv-with-epg.m3u` 和单文件 `iptv.m3u` 已废弃，请迁移到 `iptv-ct.m3u` / `iptv-cu.m3u`
 
 ## 📞 问题反馈
 
