@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml,https://epg.112114.xyz/pp.xml" catchup="append" catchup-source="?playstart=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-# 生成时间: 2026-06-14 07:22:03
+# 生成时间: 2026-06-14 07:23:06
 # 源仓库: https://github.com/michaelactions/iptv-jh
 # 电信 版本 | 聚合源 18 个来源
 # 数据源: bestfan_all + bestfan_cctv + fanmingming_index + fanmingming_ipv6 + imDazui_5000 + imDazui_GGTV + imDazui_上海电信 + imDazui_国内 +9others
