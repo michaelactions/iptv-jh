@@ -8,7 +8,6 @@
 |------|------|
 | `iptv-ct.m3u` | ✅ **电信线路版** — 通过重庆电信家宽节点 (npg) 验证 |
 | `iptv-cu.m3u` | ✅ **联通线路版** — 通过联通节点 (mrs) 验证 |
-| `iptv-cq.m3u` | 📡 **重庆组播版** — cqshushu iptvs-app 重庆联通组播源，建议重庆本地使用 |
 
 > 两版本均内置 EPG 节目单头信息，即订阅即用。
 
@@ -36,20 +35,6 @@ https://proxya.pp.ua/https://raw.githubusercontent.com/michaelactions/iptv-jh/ma
 直接链接（国外）:
 ```
 https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv-cu.m3u
-```
-
-### 重庆组播版 (iptv-cq.m3u)
-
-> 建议在重庆本地网络使用（组播源跨网/跨地区可能不通）。
-
-国内加速:
-```
-https://proxya.pp.ua/https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv-cq.m3u
-```
-
-直接链接（国外）:
-```
-https://raw.githubusercontent.com/michaelactions/iptv-jh/main/iptv-cq.m3u
 ```
 
 ## 📊 当前统计
