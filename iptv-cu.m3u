@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml,https://epg.112114.xyz/pp.xml" catchup="append" catchup-source="?playstart=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-# 生成时间: 2026-08-11 15:52:15
+# 生成时间: 2026-08-11 15:12:18
 # 源仓库: https://github.com/michaelactions/iptv-jh
 # 联通 版本 | 聚合源 29 个来源
-# 数据源: aptv_kimentanm + bestfan_all + bestfan_cctv + collecttxt_bbxx_lite + fanmingming_index + fanmingming_ipv6 + imDazui_5000 + imDazui_GGTV +19others
+# 数据源: aptv_kimentanm + bestfan_all + bestfan_cctv + collecttxt_bbxx_lite + fanmingming_index + fanmingming_ipv6 + imDazui_5000 + imDazui_GGTV +18others
 # IPv4 ✅ 0 | IPv6 ⚠️ 257 | 成人 🔞 0
 
 # 频道分组: 央视
