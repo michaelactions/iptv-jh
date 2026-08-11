@@ -418,14 +418,10 @@ http://119.233.255.62:1234/639731783
 http://zjtv-wshls.homecdn.com/live/2aa50.m3u8
 
 # 频道分组: 地方频道
-#EXTINF:-1 tvg-name="ABC Australia 澳洲公廣「4gTV」" tvg-logo="https://material.1989.click/logo/ABC-Australia.png" group-title="地方频道",ABC Australia 澳洲公廣「4gTV」
-https://iptv.1989.click/4gtv/xkvtpa?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="Astro欢喜台" group-title="地方频道",Astro欢喜台
 https://cdn.qd.je/163189/hxt
 #EXTINF:-1 tvg-name="amc电影台" group-title="地方频道",amc电影台
 https://cdn.qd.je/163189/amc
-#EXTINF:-1 tvg-name="amc電影台「4gTV」" tvg-logo="https://material.1989.click/logo/amc電影台.png" group-title="地方频道",amc電影台「4gTV」
-https://iptv.1989.click/4gtv/kttupj?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="安徽固镇新闻" group-title="地方频道",安徽固镇新闻
 http://www.guzhenm.com:7001/hls/hd-live.m3u8
 #EXTINF:-1 tvg-name="安徽导视" tvg-logo="https://tb.zbds.top/logo/安徽导视.png" group-title="地方频道",安徽导视
@@ -488,12 +484,6 @@ http://play.kankanlive.com/live/1720408089419110.m3u8
 https://iptv.1989.click/tw/bz3f4x?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="CEC国际教育" tvg-logo="https://epg.112114.xyz/logo/CEC%E5%9B%BD%E9%99%85%E6%95%99%E8%82%B2.png" group-title="地方频道",CEC国际教育
 http://play.cec-tv.com.cn/channel/cec-tv3.m3u8
-#EXTINF:-1 tvg-name="CI 罪案偵查頻道「4gTV」" tvg-logo="https://material.1989.click/logo/CI-罪案偵查頻道.png" group-title="地方频道",CI 罪案偵查頻道「4gTV」
-https://iptv.1989.click/4gtv/mk5zb9?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="CLASSICA 古典樂「4gTV」" tvg-logo="https://material.1989.click/logo/CLASSICA-古典樂.png" group-title="地方频道",CLASSICA 古典樂「4gTV」
-https://iptv.1989.click/4gtv/sg6c4e?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="CNBC Asia 財經「4gTV」" tvg-logo="https://material.1989.click/logo/CNBC-Asia-財經台.png" group-title="地方频道",CNBC Asia 財經「4gTV」
-https://iptv.1989.click/4gtv/dma5wg?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="創世電視" tvg-logo="https://material.1989.click/logo/创世电视.png" group-title="地方频道",創世電視
 https://iptv.1989.click/myTV/mm8h6p?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="常熟民生" tvg-logo="https://tb.zbds.top/logo/常熟民生.png" group-title="地方频道",常熟民生
@@ -516,14 +506,8 @@ https://stream1.freetv.fun/cang-nan-xin-wen-zong-he-4.ctv
 http://[2409:8087:1a0b:df::4006]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
 #EXTINF:-1 tvg-name="超级电视剧" tvg-logo="https://live.fanmingming.com/tv/NEWTV超级电视剧.png" group-title="地方频道",超级电视剧
 http://[2409:8087:1a0b:df::4017]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
-#EXTINF:-1 tvg-name="車迷「4gTV」 TV" tvg-logo="https://material.1989.click/logo/車迷TV.png" group-title="地方频道",車迷「4gTV」 TV
-https://iptv.1989.click/4gtv/auhvff?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="采昌影剧台" group-title="地方频道",采昌影剧台
 https://cdn.qd.je/163189/ccyj
-#EXTINF:-1 tvg-name="DW德國之聲「4gTV」" tvg-logo="https://material.1989.click/logo/DW德國之聲.png" group-title="地方频道",DW德國之聲「4gTV」
-https://iptv.1989.click/4gtv/dvm8uv?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="DreamWorks 夢工廠動畫「4gTV」" tvg-logo="https://material.1989.click/logo/DreamWorks-夢工廠動畫.png" group-title="地方频道",DreamWorks 夢工廠動畫「4gTV」
-https://iptv.1989.click/4gtv/gvuv5p?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="东丰综合" tvg-logo="https://tb.zbds.top/logo/东丰综合.png" group-title="地方频道",东丰综合
 http://stream5.jlntv.cn/df/sd/live.m3u8?zjild
 #EXTINF:-1 tvg-name="东丰综合" tvg-logo="https://tb.zbds.top/logo/东丰综合.png" group-title="地方频道",东丰综合
@@ -570,16 +554,6 @@ http://[2409:8087:5e00:24::2d]:6610/000000001000/1/5000000010000027146/index.m3u
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226966/index.m3u8
 #EXTINF:-1 tvg-name="都市" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/都市.png" group-title="地方频道",都市
 http://221.13.234.95:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="電台·叱咤903" tvg-logo="https://material.1989.click/logo/叱咤903.png" group-title="地方频道",電台·叱咤903
-https://iptv.1989.click/hkg/56tqkp?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="電台·雷霆881" tvg-logo="https://material.1989.click/logo/雷霆881.png" group-title="地方频道",電台·雷霆881
-https://iptv.1989.click/hkg/gw8ma9?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="電影原聲 CMusic「4gTV」" tvg-logo="https://material.1989.click/logo/電影原聲台CMusic.png" group-title="地方频道",電影原聲 CMusic「4gTV」
-https://iptv.1989.click/4gtv/p2jy2h?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="ELTA生活英語「4gTV」" tvg-logo="https://material.1989.click/logo/ELTA生活英語.png" group-title="地方频道",ELTA生活英語「4gTV」
-https://iptv.1989.click/4gtv/fjd6be?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="fun探索娛樂「4gTV」" tvg-logo="https://material.1989.click/logo/fun探索娛樂台.png" group-title="地方频道",fun探索娛樂「4gTV」
-https://iptv.1989.click/4gtv/4nnjum?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="佛山公共" group-title="地方频道",佛山公共
 https://stream1.freetv.fun/fo-shan-gong-gong-17.ctv
 #EXTINF:-1 tvg-name="佛山公共" group-title="地方频道",佛山公共
@@ -608,8 +582,6 @@ http://satellitepull.cnr.cn/live/wx32fjdnjjgb/playlist.m3u8
 http://222.81.86.42:8060/hls/ch3/ch3.m3u8
 #EXTINF:-1 tvg-name="福海维语综合" group-title="地方频道",福海维语综合
 http://222.81.86.42:8060/hls/ch4/ch4.m3u8
-#EXTINF:-1 tvg-name="Getwin Sports運動「4gTV」" tvg-logo="https://material.1989.click/logo/Getwin-Sports運動台.png" group-title="地方频道",Getwin Sports運動「4gTV」
-https://iptv.1989.click/4gtv/hrgaj9?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="公共" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/公共.png" group-title="地方频道",公共
 http://221.13.234.120:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="古县综合" group-title="地方频道",古县综合
@@ -672,8 +644,6 @@ http://hls.nntv.cn/nnlive/LATV_A.m3u8
 https://iptv.1989.click/myTV/x9aqqt?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="廣西電視台國際頻道" tvg-logo="https://material.1989.click/logo/广西卫视.png" group-title="地方频道",廣西電視台國際頻道
 https://iptv.1989.click/myTV/vxmm9a?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="滾動力rollor「4gTV」" tvg-logo="https://material.1989.click/logo/滾動力rollor.png" group-title="地方频道",滾動力rollor「4gTV」
-https://iptv.1989.click/4gtv/sp9g7g?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="甘肃古浪综合" group-title="地方频道",甘肃古浪综合
 https://play.kankanlive.com/live/1619400940821967.m3u8
 #EXTINF:-1 tvg-name="甘肃平川综合" group-title="地方频道",甘肃平川综合
@@ -694,10 +664,6 @@ https://satellitepull.cnr.cn/live/wxgsdstb/playlist.m3u8
 https://play.kankanlive.com/live/1625041962958919.m3u8
 #EXTINF:-1 tvg-name="甘肃陇西" group-title="地方频道",甘肃陇西
 http://play.kankanlive.com/live/1669881644081970.m3u8
-#EXTINF:-1 tvg-name="HITS頻道「4gTV」" tvg-logo="https://material.1989.click/logo/HITS頻道.png" group-title="地方频道",HITS頻道「4gTV」
-https://iptv.1989.click/4gtv/d35s9t?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="History 歷史頻道「4gTV」" tvg-logo="https://material.1989.click/logo/History-歷史頻道.png" group-title="地方频道",History 歷史頻道「4gTV」
-https://iptv.1989.click/4gtv/824arg?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="互動窗 1" tvg-logo="https://material.1989.click/logo/MytvSuper.png" group-title="地方频道",互動窗 1
 https://iptv.1989.click/myTV/r545nn?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="互動窗 1" tvg-logo="https://material.1989.click/logo/MytvSuper.png" group-title="地方频道",互動窗 1
@@ -726,14 +692,6 @@ http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild
 http://stream.hrbtv.net/zxpd/sd/live.m3u8
 #EXTINF:-1 tvg-name="哈尔滨都市咨询" tvg-logo="https://tb.zbds.top/logo/哈尔滨都市咨询.png" group-title="地方频道",哈尔滨都市咨询
 http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild
-#EXTINF:-1 tvg-name="好消息 1「4gTV」" tvg-logo="https://material.1989.click/logo/好消息.png" group-title="地方频道",好消息 1「4gTV」
-https://iptv.1989.click/4gtv/fj4dnd?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="好消息 1「4gTV」" tvg-logo="https://material.1989.click/logo/好消息.png" group-title="地方频道",好消息 1「4gTV」
-https://iptv.1989.click/4gtv/tn9s3w?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="好消息 2「4gTV」" tvg-logo="https://material.1989.click/logo/大愛電視.png" group-title="地方频道",好消息 2「4gTV」
-https://iptv.1989.click/4gtv/26az33?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="好消息 2「4gTV」" tvg-logo="https://material.1989.click/logo/大愛電視.png" group-title="地方频道",好消息 2「4gTV」
-https://iptv.1989.click/4gtv/m6cq2h?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="怀仁综合" group-title="地方频道",怀仁综合
 http://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc.m3u8?zshanxd
 #EXTINF:-1 tvg-name="杭州明珠" group-title="地方频道",杭州明珠
@@ -928,8 +886,6 @@ http://stream5.jlntv.cn/hn/sd/live.m3u8?zjild
 https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-name="邯郸科技教育" tvg-logo="https://tb.zbds.top/logo/邯郸科技教育.png" group-title="地方频道",邯郸科技教育
 https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8
-#EXTINF:-1 tvg-name="韓國娛樂台 KMTV「4gTV」" tvg-logo="https://material.1989.click/logo/韓國娛樂台-KMTV.png" group-title="地方频道",韓國娛樂台 KMTV「4gTV」
-https://iptv.1989.click/4gtv/jfxbtf?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="黃金華劇台" tvg-logo="https://material.1989.click/logo/黃金華劇台.png" group-title="地方频道",黃金華劇台
 https://iptv.1989.click/myTV/jxe2zt?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="黄山公共生活" group-title="地方频道",黄山公共生活
@@ -1134,10 +1090,6 @@ http://218.84.12.186:8001/hls/main/playlist.m3u8
 https://stream1.freetv.fun/kai-hua-xin-wen-zong-he-1.m3u8
 #EXTINF:-1 tvg-name="开化新闻综合" group-title="地方频道",开化新闻综合
 https://stream1.freetv.fun/kai-hua-xin-wen-zong-he-2.ctv
-#EXTINF:-1 tvg-name="Lifetime 娛樂頻道「4gTV」" tvg-logo="https://material.1989.click/logo/Lifetime-娛樂頻道.png" group-title="地方频道",Lifetime 娛樂頻道「4gTV」
-https://iptv.1989.click/4gtv/tgp3g6?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="LiveABC互動英語頻道「4gTV」" tvg-logo="https://material.1989.click/logo/LiveABC互動英語頻道.png" group-title="地方频道",LiveABC互動英語頻道「4gTV」
-https://iptv.1989.click/4gtv/ezwvt9?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="临洮综合" group-title="地方频道",临洮综合
 https://play.kankanlive.com/live/1638428318510977.m3u8
 #EXTINF:-1 tvg-name="临洮综合" group-title="地方频道",临洮综合
@@ -1178,8 +1130,6 @@ http://lianshui-tv-hls.cm.jstv.com/lianshui-tv/lsxw.m3u8
 http://live.cms.anhuinews.com/video/s10003-lbtv/index.m3u8?zanhd
 #EXTINF:-1 tvg-name="礼县综合频道" group-title="地方频道",礼县综合频道
 https://play.kankanlive.com/live/1652690766596995.m3u8
-#EXTINF:-1 tvg-name="辽宁之声" group-title="地方频道",辽宁之声
-https://satellitepull.cnr.cn/live/wxlnzhgb/playlist.m3u8
 #EXTINF:-1 tvg-name="辽宁公共" tvg-logo="https://live.fanmingming.cn/tv/辽宁公共.png" group-title="地方频道",辽宁公共
 http://120.76.248.139/live/bfgd/4200000077.m3u8
 #EXTINF:-1 tvg-name="辽宁公共" tvg-logo="https://live.fanmingming.cn/tv/辽宁公共.png" group-title="地方频道",辽宁公共
@@ -1226,10 +1176,6 @@ http://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8?zzhed
 http://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8
 #EXTINF:-1 tvg-name="龙祥时代" group-title="地方频道",龙祥时代
 https://cdn.qd.je/163189/lxsd
-#EXTINF:-1 tvg-name="MCE 我的歐洲電影「4gTV」" tvg-logo="https://material.1989.click/logo/My-Cinema-Europe.png" group-title="地方频道",MCE 我的歐洲電影「4gTV」
-https://iptv.1989.click/4gtv/8rew6n?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="MOMO親子「4gTV」" tvg-logo="https://material.1989.click/logo/MOMO親子台.png" group-title="地方频道",MOMO親子「4gTV」
-https://iptv.1989.click/4gtv/rs5pg3?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="岷县综合" group-title="地方频道",岷县综合
 http://play.kankanlive.com/live/1614311581479927.m3u8?zgand
 #EXTINF:-1 tvg-name="岷县综合" group-title="地方频道",岷县综合
@@ -1246,12 +1192,8 @@ http://221.13.234.120:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=
 http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd,
 #EXTINF:-1 tvg-name="萌宠TV" tvg-logo="https://live.fanmingming.cn/tv/萌宠TV.png" group-title="地方频道",萌宠TV
 http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226555/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E_PpxWPtvSZRFtu_Ged-vQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNO0istnBuoA2R9ODSCqyIyS%2CEND
-#EXTINF:-1 tvg-name="NHK 新聞資訊「4gTV」" tvg-logo="https://material.1989.click/logo/NHK-WORLD-JAPAN.png" group-title="地方频道",NHK 新聞資訊「4gTV」
-https://iptv.1989.click/4gtv/fh8ycz?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="NOW新闻台" tvg-logo="https://material.1989.click/logo/Now新聞台.png" group-title="地方频道",NOW新闻台
 https://cdn.qd.je/163189/now
-#EXTINF:-1 tvg-name="Nick Jr. 兒童頻道「4gTV」" tvg-logo="https://material.1989.click/logo/Nick-Jr.兒童頻道.png" group-title="地方频道",Nick Jr. 兒童頻道「4gTV」
-https://iptv.1989.click/4gtv/4v3kgx?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="Now Sports 精選" tvg-logo="https://material.1989.click/logo/Now Sports 精選.png" group-title="地方频道",Now Sports 精選
 https://iptv.1989.click/hk/sepwc9?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="Now財經台" tvg-logo="https://material.1989.click/logo/Now財經台.png" group-title="地方频道",Now財經台
@@ -1360,8 +1302,6 @@ http://rudong-tv-hls.cm.jstv.com/rudong-tv/rdxwzh.m3u8?zjiangsd
 http://183.64.181.25:40023/rongchang01.m3u8?zzhongqd
 #EXTINF:-1 tvg-name="荣昌综合" group-title="地方频道",荣昌综合
 http://183.64.181.25:40023/rongchang01.m3u8
-#EXTINF:-1 tvg-name="SBN 全球財經「4gTV」" tvg-logo="https://material.1989.click/logo/SBN-全球財經台.png" group-title="地方频道",SBN 全球財經「4gTV」
-https://iptv.1989.click/4gtv/e5dmnq?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="SUPER 識食" tvg-logo="https://material.1989.click/logo/MytvSuper.png" group-title="地方频道",SUPER 識食
 https://iptv.1989.click/myTV/5kh9rw?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="SUPER 識食" tvg-logo="https://material.1989.click/logo/MytvSuper.png" group-title="地方频道",SUPER 識食
@@ -1458,8 +1398,6 @@ http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
 https://stream1.freetv.fun/sheng-zhou-xin-wen-zong-he-2.m3u8
 #EXTINF:-1 tvg-name="嵊泗综合" group-title="地方频道",嵊泗综合
 https://stream1.freetv.fun/sheng-zhou-xin-wen-zong-he-2.ctv
-#EXTINF:-1 tvg-name="時尚運動X「4gTV」" tvg-logo="https://material.1989.click/logo/時尚運動X.png" group-title="地方频道",時尚運動X「4gTV」
-https://iptv.1989.click/4gtv/jnne9x?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="松原公共" group-title="地方频道",松原公共
 http://stream8.jlntv.cn/sytv2/sd/live.m3u8
 #EXTINF:-1 tvg-name="松原新闻综合" group-title="地方频道",松原新闻综合
@@ -1554,8 +1492,6 @@ http://112.46.105.20:8009/hls/19/index.m3u8
 http://[2409:8087:7001:20:3::6]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226358/index.m3u8
 #EXTINF:-1 tvg-name="陕西银龄" tvg-logo="https://tb.zbds.top/logo/陕西银龄.png" group-title="地方频道",陕西银龄
 http://112.46.105.20:8009/hls/20/index.m3u8
-#EXTINF:-1 tvg-name="TV5MONDE STYLE 生活時尚「4gTV」" tvg-logo="https://material.1989.click/logo/TV5MONDE-STYLE.png" group-title="地方频道",TV5MONDE STYLE 生活時尚「4gTV」
-https://iptv.1989.click/4gtv/adfyaq?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="天映新加坡" group-title="地方频道",天映新加坡
 https://cdn.qd.je/163189/typd
 #EXTINF:-1 tvg-name="天映經典頻道" tvg-logo="https://material.1989.click/logo/天映经典.png" group-title="地方频道",天映經典頻道
@@ -2052,8 +1988,6 @@ https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream05/streamPla
 https://cdn.qd.je/163189/rthk31
 #EXTINF:-1 tvg-name="RTHK32" tvg-logo="https://material.1989.click/logo/RTHK32.png" group-title="港澳台频道",RTHK32
 https://cdn.qd.je/163189/rthk32
-#EXTINF:-1 tvg-name="三立新聞iNEWS「4gTV」" tvg-logo="https://material.1989.click/logo/三立新聞iNEWS.png" group-title="港澳台频道",三立新聞iNEWS「4gTV」
-https://iptv.1989.click/4gtv/fc87q6?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="TVB Plus" tvg-logo="https://material.1989.click/logo/TVBPlus.png" group-title="港澳台频道",TVB Plus
 https://cdn.qd.je/163189/tvbp2
 #EXTINF:-1 tvg-name="TVB Plus" tvg-logo="https://material.1989.click/logo/TVBPlus.png" group-title="港澳台频道",TVB Plus
@@ -2068,12 +2002,6 @@ https://cdn.qd.je/163189/tvbp
 https://cdn.qd.je/163189/tvb1
 #EXTINF:-1 tvg-name="TVBJ1" group-title="港澳台频道",TVBJ1
 https://cdn.qd.je/163189/j1
-#EXTINF:-1 tvg-name="TVBS 歡樂「4gTV」" tvg-logo="https://material.1989.click/logo/TVBS歡樂台.png" group-title="港澳台频道",TVBS 歡樂「4gTV」
-https://iptv.1989.click/4gtv/2nykwv?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="TVBS 歡樂「4gTV」" tvg-logo="https://material.1989.click/logo/TVBS歡樂台.png" group-title="港澳台频道",TVBS 歡樂「4gTV」
-https://iptv.1989.click/4gtv/ezbv6y?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="TVBS「4gTV」" tvg-logo="https://material.1989.click/logo/TVBS.png" group-title="港澳台频道",TVBS「4gTV」
-https://iptv.1989.click/4gtv/pdmadr?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 #EXTINF:-1 tvg-name="TVB星河" tvg-logo="https://material.1989.click/logo/亞洲武俠.png" group-title="港澳台频道",TVB星河
 https://cdn.qd.je/163189/xinghe
 #EXTINF:-1 tvg-name="TVB星河" tvg-logo="https://material.1989.click/logo/亞洲武俠.png" group-title="港澳台频道",TVB星河
@@ -2110,10 +2038,6 @@ https://iptv.1989.click/myTV/v3ksaa?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2
 https://cdn.qd.je/163189/ymswdyt
 #EXTINF:-1 tvg-name="中天亞洲" tvg-logo="https://material.1989.click/logo/中天亞洲台.png" group-title="港澳台频道",中天亞洲
 https://iptv.1989.click/comp/bq3hjm?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="中視「4gTV」" tvg-logo="https://material.1989.click/logo/博斯無限二台.png" group-title="港澳台频道",中視「4gTV」
-https://iptv.1989.click/4gtv/mkf7hk?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
-#EXTINF:-1 tvg-name="中視「4gTV」" tvg-logo="https://material.1989.click/logo/博斯無限二台.png" group-title="港澳台频道",中視「4gTV」
-https://iptv.1989.click/4gtv/xwy8j5?token=df00c8c8cc557717b8ca7b7adb164ddf7414c2a6c86ed077
 
 # 频道分组: 轮播
 #EXTINF:-1 tvg-name="和美乡途轮播台" tvg-logo="https://epg.112114.xyz/logo/%E5%92%8C%E7%BE%8E%E4%B9%A1%E9%80%94%E8%BD%AE%E6%92%AD%E5%8F%B0.png" group-title="轮播",和美乡途轮播台
